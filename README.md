@@ -25,7 +25,7 @@
 
 ## 🚀 个人项目
 
-1. 🏙️ 基于深度学习的城市景观分类
+1. 🏙️ 使用Isaac Sim 实现机械臂的Sim2Real（https://github.com/xiongy24/arm_isaac_sim2real.git）
 2. 📝 个人阅读笔记管理系统
 3. 🚶‍♂️ 城市街头摄影集
 
