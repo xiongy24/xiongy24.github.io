@@ -23,16 +23,10 @@
 2. 🤖 《人工智能简史》- 尼克·波斯特洛姆
 3. 📷 《摄影艺术》- 布鲁斯·巴纳鲍姆
 
-## 📅 最近计划
-
-1. 🤖 实现ROS机器人小车
-2. 📚 阅读完《智人之上》
-3. 🌍 学习一门新的编程语言
-4. 📸 组织一次城市街头摄影展
 
 ## 🚀 个人项目
 
-1. 🏙️ [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
+1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
 2. 📝 个人阅读笔记管理系统
 3. 🚶‍♂️ 城市街头摄影集
 
