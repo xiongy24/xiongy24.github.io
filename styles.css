@@ -53,3 +53,9 @@ code {
     font-size: 0.8em;
     margin-right: 5px;
 }
+
+/* 在文件末尾添加 */
+.fas, .fab {
+    margin-right: 5px;
+    color: #0066cc;
+}
