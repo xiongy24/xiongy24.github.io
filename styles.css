@@ -190,3 +190,11 @@ footer {
     margin-right: 5px;
     color: #0066cc;
 }
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}

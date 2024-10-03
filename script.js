@@ -36,4 +36,35 @@ document.addEventListener('DOMContentLoaded', function() {
             performSearch();
         }
     });
+
+    // Page navigation functionality
+    const navLinks = document.querySelectorAll('nav a[data-page]');
+    const pages = document.querySelectorAll('.page');
+
+    function showPage(pageId) {
+        pages.forEach(page => {
+            page.classList.remove('active');
+        });
+        const targetPage = document.getElementById(pageId);
+        if (targetPage) {
+            targetPage.classList.add('active');
+        }
+    }
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const pageId = this.getAttribute('data-page');
+            showPage(pageId);
+        });
+    });
+
+    // Handle "了解更多" button
+    const learnMoreBtn = document.querySelector('.btn[data-page="about"]');
+    if (learnMoreBtn) {
+        learnMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            showPage('about');
+        });
+    }
 });

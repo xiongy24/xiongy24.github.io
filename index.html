@@ -14,10 +14,10 @@
                 <img src="logo.jpg" alt="Logo">
             </div>
             <ul>
-                <li><a href="#latest-articles">博客</a></li>
-                <li><a href="#projects">项目</a></li>
-                <li><a href="#about">关于</a></li>
-                <li><a href="#more">更多</a></li>
+                <li><a href="#" data-page="blog">博客</a></li>
+                <li><a href="#" data-page="projects">项目</a></li>
+                <li><a href="#" data-page="about">关于</a></li>
+                <li><a href="#" data-page="more">更多</a></li>
             </ul>
             <div class="nav-right">
                 <button class="theme-toggle"><i class="fas fa-sun"></i></button>
@@ -28,27 +28,29 @@
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>🤖 欢迎来到我的数字乌托邦</h1>
-                <p>在这里我会分析技术知识和书籍阅读，分享我对各种技术和思想的见解，希望能为你带来新的思考和启发。</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-stack-overflow"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-discord"></i></a>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
-                    <a href="#"><i class="fas fa-envelope"></i></a>
-                    <a href="#"><i class="fas fa-rss"></i></a>
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>🤖 欢迎来到我的数字乌托邦</h1>
+                    <p>在这里我会分析技术知识和书籍阅读，分享我对各种技术和思想的见解，希望能为你带来新的思考和启发。</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fas fa-rss"></i></a>
+                    </div>
+                    <a href="#" class="btn" data-page="about">了解更多</a>
                 </div>
-                <a href="#about" class="btn">了解更多</a>
-            </div>
-            <div class="hero-image">
-                <img src="path/to/your/hero-image.png" alt="Digital Utopia">
+                <div class="hero-image">
+                    <img src="path/to/your/hero-image.png" alt="Digital Utopia">
+                </div>
             </div>
         </section>
 
-        <section id="latest-articles">
+        <section id="blog" class="page">
             <h2>📰 最新文章</h2>
             <ul>
                 <li><a href="article1.md">🧠 机器学习在图像识别中的应用</a> - 2024年4月15日</li>
@@ -57,7 +59,16 @@
             </ul>
         </section>
 
-        <section id="about">
+        <section id="projects" class="page">
+            <h2>🚀 个人项目</h2>
+            <ol>
+                <li>🤖 <a href="https://github.com/xiongy24/arm_isaac_sim2real.git">通过Isaac Sim 实现机械臂的Sim2Real</a></li>
+                <li>📝 英文文献阅读Bot</li>
+                <li>🚶‍♂️ 城市街头摄影集</li>
+            </ol>
+        </section>
+
+        <section id="about" class="page">
             <h2>👤 关于我</h2>
             <p>👋 嗨，我是xiongy！我是一名充满好奇心的机器人技术爱好者，热衷于探索人工智能和自动化的世界。这里是我的数字乌托邦🌱，我在这里种植关于机器人的想法，培育自动化知识，分享技术成长。</p>
             <h3>❤️ 兴趣领域</h3>
@@ -69,44 +80,9 @@
             </ul>
         </section>
 
-        <section id="reading">
-            <h2>📖 最近在读</h2>
-            <ol>
-                <li>📕 《百年孤独》- 加西亚·马尔克斯</li>
-                <li>🤖 《人工智能简史》- 尼克·波斯特洛姆</li>
-                <li>📷 《摄影艺术》- 布鲁斯·巴纳鲍姆</li>
-            </ol>
-        </section>
-
-        <section id="projects">
-            <h2>🚀 个人项目</h2>
-            <ol>
-                <li>🤖 <a href="https://github.com/xiongy24/arm_isaac_sim2real.git">通过Isaac Sim 实现机械臂的Sim2Real</a></li>
-                <li>📝 英文文献阅读Bot</li>
-                <li>🚶‍♂️ 城市街头摄影集</li>
-            </ol>
-        </section>
-
-        <section id="following">
-            <h2>🔬 正在关注的项目</h2>
-            <h3>机械臂</h3>
-            <ol>
-                <li>🦾 <a href="https://github.com/xiongy24/PAROL6-Desktop-robot-arm">PAROL6桌面机械臂</a></li>
-                <li>🏗️ <a href="https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file">CompactRoboticArm机械臂</a></li>
-            </ol>
-            <h3>双足机器人</h3>
-            <ol>
-                <li>🏃 <a href="https://github.com/SMPLOlympics/SMPLOlympics">SMPL Olympics</a></li>
-                <li>🦆 <a href="https://github.com/apirrone/Open_Duck_Mini">Open Duck Mini</a></li>
-            </ol>
-        </section>
-
-        <section id="contact">
-            <h2>📞 联系方式</h2>
-            <ul>
-                <li>📧 Email: 3344898143@qq.com</li>
-                <li>👨‍💻 GitHub: <a href="https://github.com/xiongy24">xiongy</a></li>
-            </ul>
+        <section id="more" class="page">
+            <h2>更多内容</h2>
+            <!-- ... add more content here ... -->
         </section>
     </main>
 
