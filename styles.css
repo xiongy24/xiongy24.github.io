@@ -127,8 +127,8 @@ main {
 }
 
 .hero-image {
-    width: 400px; /* 或任何你想要的固定宽度 */
-    height: 300px; /* 或任何你想要的固定高度 */
+    width: 40px; /* 或任何你想要的固定宽度 */
+    height: 30px; /* 或任何你想要的固定高度 */
 }
 
 .hero-image video {
