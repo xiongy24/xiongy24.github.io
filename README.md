@@ -27,14 +27,16 @@
 ## 🚀 个人项目
 
 1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
-2. 📝 个人阅读笔记管理系统
+2. 📝 英文文献阅读Bot
 3. 🚶‍♂️ 城市街头摄影集
 
 ## 🤖 正在关注的项目
-#机械臂
+
+### 机械臂
 1. 🤖 [PAROL6桌面机械臂](https://github.com/xiongy24/PAROL6-Desktop-robot-arm)
 2. 🤖 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
-#双足机器人
+
+### 双足机器人
 1. 🤖 [SMPL Olympics](https://github.com/SMPLOlympics/SMPLOlympics)
 2. 🤖 [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
 
