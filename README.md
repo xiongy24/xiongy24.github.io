@@ -42,9 +42,8 @@
 
 ## 📞 联系方式
 
-- 📧 Email: contact@xiongy.com
-- 👨‍💻 GitHub: [xiongy](https://github.com/xiongy)
-- 📸 Instagram: [@xiongy_photos](https://www.instagram.com/xiongy_photos)
+- 📧 Email: 3344898143@qq.com
+- 👨‍💻 GitHub: [xiongy](https://github.com/xiongy24)
 
 ---
 © 2024 xiongy | 📡 [RSS订阅](#)
