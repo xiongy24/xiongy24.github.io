@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno</h1>
+
+    <ol>
+        <li>
+            <h2>安装 VSCode</h2>
+            <ul>
+                <li>访问 <a href="https://code.visualstudio.com/" target="_blank">VSCode 官网</a> 下载 .deb 包</li>
+                <li>使用以下命令安装：
+                    <code>
+                    sudo dpkg -i &lt;下载的文件名&gt;.deb<br>
+                    sudo apt-get install -f
+                    </code>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h2>安装 PlatformIO 扩展</h2>
+            <ul>
+                <li>在 VSCode 中，转到扩展市场（Ctrl+Shift+X）</li>
+                <li>搜索 "PlatformIO IDE"</li>
+                <li>点击 "安装"</li>
+            </ul>
+        </li>
+        <li>
+            <h2>创建 PlatformIO 项目</h2>
+            <ul>
+                <li>在 VSCode 中，点击 PlatformIO 图标（通常在左侧栏）</li>
+                <li>选择 "New Project"</li>
+                <li>选择 Board: "Arduino Uno"</li>
+                <li>选择 Framework: "Arduino"</li>
+                <li>选择项目位置并命名</li>
+            </ul>
+            <img src="4d4a4b89dedc6a9856a0f0fa0785967.png" alt="PlatformIO 项目创建界面">
+        </li>
+        <li>
+            <h2>编写代码</h2>
+            <p>在 <code>src/main.cpp</code> 中编写或粘贴您的 Arduino 代码</p>
+            <code>
+            #include &lt;Arduino.h&gt;
+
+            void printMenu() {
+                Serial.println("\n--- Arduino Menu ---");
+                Serial.println("1. Say Hello");
+                Serial.println("2. Get Arduino Uptime");
+                Serial.println("3. Blink LED");
+                Serial.println("Enter your choice:");
+            }
+
+            void setup() {
+                Serial.begin(9600);
+                while (!Serial) {
+                    ; // Wait for serial port to connect (needed for native USB port only)
+                }
+                Serial.println("Arduino ready for communication!");
+                pinMode(LED_BUILTIN, OUTPUT);
+                printMenu();
+            }
+
+            void loop() {
+                if (Serial.available() > 0) {
+                    char choice = Serial.read();
+
+                    // Clear the serial buffer
+                    while (Serial.available() > 0) {
+                        Serial.read();
+                    }
+
+                    switch (choice) {
+                        case '1':
+                            Serial.println("Hello from Arduino!");
+                            break;
+                        case '2':
+                            Serial.print("Arduino uptime: ");
+                            Serial.print(millis() / 1000);
+                            Serial.println(" seconds");
+                            break;
+                        case '3':
+                            Serial.println("Blinking LED 3 times...");
+                            for (int i = 0; i < 3; i++) {
+                                digitalWrite(LED_BUILTIN, HIGH);
+                                delay(500);
+                                digitalWrite(LED_BUILTIN, LOW);
+                                delay(500);
+                            }
+                            Serial.println("Blinking complete!");
+                            break;
+                        default:
+                            Serial.println("Invalid choice. Please try again.");
+                    }
+
+                    printMenu();
+                }
+            }
+            </code>
+        </li>
+        <li>
+            <h2>连接 Arduino Uno</h2>
+            <p>使用 USB 线将 Arduino Uno 连接到电脑</p>
+        </li>
+        <li>
+            <h2>编译和上传</h2>
+            <ul>
+                <li>点击 VSCode 底部状态栏的 "PlatformIO: Build" 图标编译代码</li>
+                <li>点击 "PlatformIO: Upload" 图标将程序上传到 Arduino Uno</li>
+            </ul>
+        </li>
+        <li>
+            <h2>监视串口输出</h2>
+            <ul>
+                <li>点击 "PlatformIO: Serial Monitor" 图标打开串口监视器</li>
+                <li>这时在串口监视器中输入数字，就可以选择相应的功能。</li>
+            </ul>
+            <p>注：如果遇到权限问题，可能需要将用户添加到 <code>dialout</code> 组：</p>
+            <code>
+            sudo usermod -a -G dialout $USER
+            </code>
+            <p>添加后需要注销并重新登录才能生效。</p>
+        </li>
+    </ol>
+
+    <h1>ROS 2 与 Arduino 通信指南</h1>
+
+    <h2>准备工作</h2>
+    <ol>
+        <li>确保已安装 ROS 2（本指南基于 ROS 2 Humble）</li>
+        <li>确保已安装 Arduino IDE 并能正常使用</li>
+        <li>安装必要的 ROS 2 包：
+            <code>
+            sudo apt install ros-humble-serial-driver
+            </code>
+        </li>
+    </ol>
+
+    <h2>Arduino 端设置</h2>
+    <ol>
+        <li>打开 Arduino IDE，创建新项目</li>
+        <li>将以下代码复制到 Arduino IDE 中：
+            <code>
+            #include &lt;Arduino.h&gt;
+
+            void printMenu() {
+              Serial.println("\n--- Arduino Menu ---");
+              Serial.println("1. Say Hello");
+              Serial.println("2. Get Arduino Uptime");
+              Serial.println("3. Blink LED");
+              Serial.println("Enter your choice:");
+            }
+
+            void setup() {
+              Serial.begin(9600);
+              while (!Serial) {
+                ; // Wait for serial port to connect (needed for native USB port only)
+              }
+              delay(1000); // 添加一个短暂的延迟
+              Serial.println("Arduino ready for communication!");
+              pinMode(LED_BUILTIN, OUTPUT);
+              printMenu();
+            }
+
+            void loop() {
+              if (Serial.available() > 0) {
+                char choice = Serial.read();
+              
+                // Clear the serial buffer
+                while(Serial.available() > 0) {
+                  Serial.read();
+                }
+              
+                switch(choice) {
+                  case '1':
+                    Serial.println("Hello from Arduino!");
+                    break;
+                  case '2':
+                    Serial.print("Arduino uptime: ");
+                    Serial.print(millis() / 1000);
+                    Serial.println(" seconds");
+                    break;
+                  case '3':
+                    Serial.println("Blinking LED 3 times...");
+                    for(int i = 0; i < 3; i++) {
+                      digitalWrite(LED_BUILTIN, HIGH);
+                      delay(500);
+                      digitalWrite(LED_BUILTIN, LOW);
+                      delay(500);
+                    }
+                    Serial.println("Blinking complete!");
+                    break;
+                  default:
+                    Serial.println("Invalid choice. Please try again.");
+                }
+              
+                printMenu();
+              }
+            }
+            </code>
+        </li>
+        <li>将代码上传到 Arduino</li>
+    </ol>
+
+    <h2>ROS 2 端设置</h2>
+    <ol>
+        <li>创建一个新的 ROS 2 包（如果还没有）：
+            <code>
+            mkdir ros2_ws/src/arduino_communication
+            cd ros2_ws/src/arduino_communication
+            ros2 pkg create --build-type ament_cmake arduino_communication
+            </code>
+        </li>
+        <li>在 <code>arduino_communication</code> 包中创建 <code>src/arduino_serial_node.cpp</code> 文件，并添加以下代码：
+            <code>
+            #include &lt;rclcpp/rclcpp.hpp&gt;
+            #include &lt;std_msgs/msg/string.hpp&gt;
+            #include &lt;serial_driver/serial_driver.hpp&gt;
+            #include &lt;vector&gt;
+            #include &lt;string&gt;
+
+            using drivers::serial_driver::SerialDriver;
+            using drivers::serial_driver::SerialPortConfig;
+            using drivers::common::IoContext;
+
+            class ArduinoSerialNode : public rclcpp::Node {
+            public:
+                ArduinoSerialNode()
+                    : Node("arduino_serial_node")
+                {
+                    // 创建 IoContext
+                    io_context_ = std::make_shared&lt;IoContext&gt;(1);
+
+                    // 创建 SerialPortConfig
+                    auto device_config = std::make_shared&lt;SerialPortConfig&gt;(
+                        9600,
+                        drivers::serial_driver::FlowControl::NONE,
+                        drivers::serial_driver::Parity::NONE,
+                        drivers::serial_driver::StopBits::ONE
+                    );
+
+                    // 创建 SerialDriver
+                    serial_driver_ = std::make_unique&lt;SerialDriver&gt;(*io_context_);
+
+                    // 打开串口
+                    try {
+                        serial_driver_-&gt;init_port("/dev/ttyACM0", *device_config);
+                        serial_driver_-&gt;port()-&gt;open();
+                        RCLCPP_INFO(this-&gt;get_logger(), "Serial port opened successfully");
+                    } catch (const std::exception &ex) {
+                        RCLCPP_ERROR(this-&gt;get_logger(), "Error opening serial port: %s", ex.what());
+                        return;
+                    }
+
+                    // 创建定时器和发布者
+                    timer_ = this-&gt;create_wall_timer(
+                        std::chrono::milliseconds(100),
+                        std::bind(&ArduinoSerialNode::timer_callback, this));
+
+                    publisher_ = this-&gt;create_publisher&lt;std_msgs::msg::String&gt;("arduino_data", 10);
+                }
+
+            private:
+                void timer_callback() {
+                    std::vector&lt;uint8_t&gt; buffer(256);
+                    size_t bytes_read = 0;
+
+                    try {
+                        bytes_read = serial_driver_-&gt;port()-&gt;receive(buffer);
+                    } catch (const std::exception &ex) {
+                        RCLCPP_ERROR(this-&gt;get_logger(), "Error reading from serial port: %s", ex.what());
+                        return;
+                    }
+
+                    if (bytes_read > 0) {
+                        std::string data(buffer.begin(), buffer.begin() + bytes_read);
+                        process_and_publish_data(data);
+                    }
+                }
+
+                void process_and_publish_data(const std::string& data) {
+                    static std::string buffer;
+                    buffer += data;
+
+                    size_t pos;
+                    while ((pos = buffer.find('\n')) != std::string::npos) {
+                        std::string line = buffer.substr(0, pos);
+                        buffer.erase(0, pos + 1);
+
+                        if (line.find("Arduino ready for communication!") != std::string::npos ||
+                            line.find("Hello from Arduino!") != std::string::npos ||
+                            line.find("Arduino uptime:") != std::string::npos ||
+                            line.find("Blinking LED") != std::string::npos ||
+                            line.find("Blinking complete!") != std::string::npos ||
+                            line.find("Invalid choice") != std::string::npos) {
+                        
+                            auto message = std_msgs::msg::String();
+                            message.data = line;
+                            publisher_-&gt;publish(message);
+                            RCLCPP_INFO(this-&gt;get_logger(), "Published data: %s", line.c_str());
+                        }
+                    }
+                }
+
+                std::shared_ptr&lt;IoContext&gt; io_context_;
+                std::unique_ptr&lt;SerialDriver&gt; serial_driver_;
+                rclcpp::TimerBase::SharedPtr timer_;
+                rclcpp::Publisher&lt;std_msgs::msg::String&gt;::SharedPtr publisher_;
+            };
+
+            int main(int argc, char *argv[]) {
+                rclcpp::init(argc, argv);
+                rclcpp::spin(std::make_shared&lt;ArduinoSerialNode&gt;());
+                rclcpp::shutdown();
+                return 0;
+            }
+            </code>
+        </li>
+        <li>修改 <code>CMakeLists.txt</code> 文件，添加以下内容：
+            <code>
+            cmake_minimum_required(VERSION 3.5)
+            project(arduino_communication)
+
+            find_package(ament_cmake REQUIRED)
+            find_package(rclcpp REQUIRED)
+            find_package(std_msgs REQUIRED)
+            find_package(serial_driver REQUIRED)
+
+            add_executable(arduino_serial_node src/arduino_serial_node.cpp)
+            ament_target_dependencies(arduino_serial_node rclcpp std_msgs serial_driver)
+
+            install(TARGETS
+              arduino_serial_node
+              DESTINATION lib/${PROJECT_NAME})
+
+            ament_package()
+            </code>
+        </li>
+        <li>修改 <code>package.xml</code> 文件，添加以下依赖项：
+            <code>
+            &lt;package format="3"&gt;
+              &lt;name&gt;arduino_communication&lt;/name&gt;
+              &lt;version&gt;0.0.0&lt;/version&gt;
+              &lt;description&gt;ROS 2 package for communicating with Arduino&lt;/description&gt;
+              &lt;maintainer email="you@example.com"&gt;Your Name&lt;/maintainer&gt;
+              &lt;license&gt;Apache-2.0&lt;/license&gt;
+
+              &lt;buildtool_depend&gt;ament_cmake&lt;/buildtool_depend&gt;
+              &lt;build_depend&gt;rclcpp&lt;/build_depend&gt;
+              &lt;build_depend&gt;std_msgs&lt;/build_depend&gt;
+              &lt;build_depend&gt;serial_driver&lt;/build_depend&gt;
+
+              &lt;exec_depend&gt;rclcpp&lt;/exec_depend&gt;
+              &lt;exec_depend&gt;std_msgs&lt;/exec_depend&gt;
+              &lt;exec_depend&gt;serial_driver&lt;/exec_depend&gt;
+
+              &lt;export&gt;
+                &lt;build_type&gt;ament_cmake&lt;/build_type&gt;
+              &lt;/export&gt;
+            &lt;/package&gt;
+            </code>
+        </li>
+        <li>构建并安装包：
+            <code>
+            cd ~/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws
+            colcon build --symlink-install
+            source install/setup.bash
+            </code>
+        </li>
+        <li>运行节点：
+            <p>在运行节点之前，需要 <code>source</code> ROS 2 和工作空间的环境设置：</p>
+            <code>
+            source /opt/ros/humble/setup.bash
+            source ~/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/setup.bash
+            ros2 run arduino_communication arduino_serial_node
+            </code>
+        </li>
+        <li>在另一个终端中，查看从 Arduino 发布的数据：
+            <code>
+            source /opt/ros/humble/setup.bash
+            source ~/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/setup.bash
+            ros2 topic echo /arduino_data
+            </code>
+        </li>
+    </ol>
+
+    <p>运行成功的话，可以看到 Arduino 发送的数据。</p>
+    <img src="image.png" alt="Arduino 数据输出">
+
+    <h2>故障排除</h2>
+
+    <h3>串口监视器错误</h3>
+    <p>如果在点击 "PlatformIO: Serial Monitor" 时出现类似以下的错误：</p>
+    <img src="74a7cd86a71adc516ff78180b8ce004.png" alt="串口监视器错误">
+    <p>这是因为 PlatformIO 在尝试运行测试，但是找不到测试文件。解决方法如下：</p>
+    <ol>
+        <li>确保您不是在运行测试命令。串口监视器应该使用 "Monitor" 命令，而不是 "Test" 命令。</li>
+        <li>如果问题仍然存在，尝试以下步骤：
+            <ul>
+                <li>在项目根目录创建一个 <code>test</code> 文件夹（如果不存在）</li>
+                <li>在 <code>test</code> 文件夹中创建一个空的测试文件，例如 <code>test_main.cpp</code></li>
+                <li>在 <code>test_main.cpp</code> 中添加以下内容：
+                    <code>
+                    #include &lt;unity.h&gt;
+
+                    void setUp(void) {
+                        // set stuff up here
+                    }
+
+                    void tearDown(void) {
+                        // clean stuff up here
+                    }
+
+                    void test_function_calculator_addition(void) {
+                        TEST_ASSERT_EQUAL(32, 25 + 7);
+                    }
+
+                    int main(int argc, char **argv) {
+                        UNITY_BEGIN();
+                        RUN_TEST(test_function_calculator_addition);
+                        UNITY_END();
+
+                        return 0;
+                    }
+                    </code>
+                </li>
+            </ul>
+        </li>
+        <li>检查 <code>platformio.ini</code> 文件，确保正确配置了串口监视器：
+            <code>
+            [env:uno]
+            platform = atmelavr
+            board = uno
+            framework = arduino
+            monitor_speed = 9600
+            </code>
+        </li>
+    </ol>
+    <p>点击 "PlatformIO: Serial Monitor" 图标打开串口监视器<br>
+    这时在串口监视器中输入数字，就可以选择相应的功能。</p>
+    <p>如果问题仍然存在，可以尝试重新安装 PlatformIO 或查看 PlatformIO 的官方文档以获取更多帮助。</p>
+
+    <h3>串口设备错误</h3>
+    <p>如果遇到 "Error opening serial port: open: No such file or directory" 错误，请尝试以下步骤：</p>
+    <ol>
+        <li>确保 Arduino 已正确连接到电脑。</li>
+        <li>检查串口设备名称是否正确。使用以下命令列出可用的串口设备：
+            <code>
+            ls /dev/tty*
+            </code>
+            找到类似 <code>/dev/ttyACM0</code> 或 <code>/dev/ttyUSB0</code> 的设备名称，并在代码中更新。
+        </li>
+        <li>确保当前用户有权限访问串口设备。运行以下命令添加用户到 <code>dialout</code> 组：
+            <code>
+            sudo usermod -a -G dialout $USER
+            </code>
+            运行此命令后，注销并重新登录以使更改生效。
+        </li>
+        <li>如果问题仍然存在，尝试重新插拔 Arduino 或重启电脑。</li>
+    </ol>
+
+    <h3>重新编译和运行</h3>
+    <ol>
+        <li>导航到工作空间目录：
+            <code>
+            cd ~/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws
+            </code>
+        </li>
+        <li>清理之前的构建并重新编译包：
+            <code>
+            colcon build --symlink-install --cmake-clean-cache
+            </code>
+        </li>
+        <li>如果上述命令失败，尝试只构建 arduino_communication 包：
+            <code>
+            colcon build --symlink-install --packages-select arduino_communication
+            </code>
+        </li>
+        <li>重新加载环境：
+            <code>
+            source /opt/ros/humble/setup.bash
+            source ~/文档/PlatformIO/Projects/arduino_ros2_communicate/ros2_ws/install/setup.bash
+            </code>
+        </li>
+        <li>运行节点：
+            <code>
+            ros2 run arduino_communication arduino_serial_node
+            </code>
+        </li>
+    </ol>
+
+    <p>通过以上步骤，你应该能够成功实现 ROS 2 与 Arduino 的通信。如果仍然遇到问题，请检查代码中的错误并确保所有依赖都已正确安装。</p>
+</body>
+</html>
