@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchButton = document.getElementById('search-button');
 
     function performSearch() {
-        const searchTerm = searchInput.value.toLowerCase();
-        if (searchTerm.trim() === '') {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        if (searchTerm === '') {
             alert('请输入搜索内容');
             return;
         }
