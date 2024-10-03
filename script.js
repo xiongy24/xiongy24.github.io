@@ -75,4 +75,43 @@ document.addEventListener('DOMContentLoaded', function() {
             showPage('about');
         });
     }
+
+    // Load Markdown file functionality
+    const articleList = document.getElementById('article-list');
+    const articleContent = document.getElementById('article-content');
+
+    articleList.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (e.target.tagName === 'A') {
+            const mdFile = e.target.getAttribute('data-md');
+            loadMarkdownFile(mdFile);
+        }
+    });
+
+    function loadMarkdownFile(file) {
+        fetch(file)
+            .then(response => response.text())
+            .then(text => {
+                articleContent.innerHTML = marked.parse(text);
+                articleList.style.display = 'none';
+                articleContent.style.display = 'block';
+            })
+            .catch(error => console.error('Error loading the Markdown file:', error));
+    }
+
+    // Add return button functionality
+    const backButton = document.createElement('button');
+    backButton.textContent = '返回文章列表';
+    backButton.style.display = 'none';
+    articleContent.parentNode.insertBefore(backButton, articleContent);
+
+    backButton.addEventListener('click', function() {
+        articleList.style.display = 'block';
+        articleContent.style.display = 'none';
+        backButton.style.display = 'none';
+    });
+
+    articleList.addEventListener('click', function() {
+        backButton.style.display = 'block';
+    });
 });

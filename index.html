@@ -6,6 +6,10 @@
     <title>xiongy的数字乌托邦</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <!-- 添加 GitHub 风格的 Markdown CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css">
+    <!-- 添加 marked.js 库 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <header>
@@ -52,11 +56,12 @@
 
         <section id="blog" class="page">
             <h2>📰 最新文章</h2>
-            <ul>
-                <li><a href="article1.html">💻 在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno</a> - 2024年9月1日</li>
-                <li><a href="article2.md">🔧 使用arduino控制42步进电机</a> - 2024年9月10日</li>
-                <li><a href="article3.md">🦾 使用Isaac Sim 实现机械臂的Sim2Real</a> - 2024年9月15日</li>
+            <ul id="article-list">
+                <li><a href="#" data-md="article1.md">💻 在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno</a> - 2024年9月1日</li>
+                <li><a href="#" data-md="article2.md">🔧 使用arduino控制42步进电机</a> - 2024年9月10日</li>
+                <li><a href="#" data-md="article3.md">🦾 使用Isaac Sim 实现机械臂的Sim2Real</a> - 2024年9月15日</li>
             </ul>
+            <div id="article-content" class="markdown-body"></div>
         </section>
 
         <section id="projects" class="page">
