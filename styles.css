@@ -198,3 +198,25 @@ footer {
 .page.active {
     display: block;
 }
+
+#about h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+#about ul, #about ol {
+    padding-left: 20px;
+}
+
+#about li {
+    margin-bottom: 10px;
+}
+
+#about a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
