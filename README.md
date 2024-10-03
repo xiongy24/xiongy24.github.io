@@ -40,6 +40,8 @@
 ### 双足机器人
 1. 🏃 [SMPL Olympics](https://github.com/SMPLOlympics/SMPLOlympics)
 2. 🦆 [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
+3. 🏃 [robocasa](https://github.com/robocasa/robocasa)
+
 
 ## 📞 联系方式
 
