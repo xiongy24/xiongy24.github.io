@@ -1,5 +1,5 @@
 # 🤖 我的数字乌托邦
-人间游荡二十余载，常有惑！该如何？
+
 ## 📰 最新文章
 
 - 🧠 [机器学习在图像识别中的应用](article1.md) - 2024年4月15日
@@ -29,6 +29,14 @@
 1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
 2. 📝 个人阅读笔记管理系统
 3. 🚶‍♂️ 城市街头摄影集
+
+## 🤖 正在关注的项目
+#机械臂
+1. 🤖 [PAROL6桌面机械臂](https://github.com/xiongy24/PAROL6-Desktop-robot-arm)
+2. 🤖 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
+#双足机器人
+4. 🤖 [SMPL Olympics](https://github.com/SMPLOlympics/SMPLOlympics)
+5. 🤖 [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
 
 ## 📞 联系方式
 
