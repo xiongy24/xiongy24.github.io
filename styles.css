@@ -78,13 +78,14 @@ main {
 
 .hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 4rem;
+    justify-content: space-between;
+    padding: 2rem;
 }
 
 .hero-content {
     flex: 1;
+    padding-right: 2rem;
 }
 
 .hero h1 {
@@ -126,13 +127,15 @@ main {
 }
 
 .hero-image {
-    flex: 1;
-    text-align: right;
+    flex: 0 0 40%; /* 调整这个值来改变视频的宽度 */
+    max-width: 40%; /* 确保视频不会超过容器宽度的 40% */
 }
 
-.hero-image img {
-    max-width: 100%;
+.hero-image video {
+    width: 100%;
     height: auto;
+    object-fit: cover;
+    border-radius: 10px; /* 可选：添加圆角 */
 }
 
 section {
