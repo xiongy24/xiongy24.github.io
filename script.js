@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Page navigation functionality
     const navLinks = document.querySelectorAll('nav a[data-page]');
     const pages = document.querySelectorAll('.page');
+    const logoLink = document.querySelector('.logo a');
 
     function showPage(pageId) {
         pages.forEach(page => {
@@ -51,13 +52,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function handleNavClick(e) {
+        e.preventDefault();
+        const pageId = this.getAttribute('data-page');
+        showPage(pageId);
+    }
+
     navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const pageId = this.getAttribute('data-page');
-            showPage(pageId);
-        });
+        link.addEventListener('click', handleNavClick);
     });
+
+    // Add click event listener to logo
+    if (logoLink) {
+        logoLink.addEventListener('click', handleNavClick);
+    }
 
     // Handle "了解更多" button
     const learnMoreBtn = document.querySelector('.btn[data-page="about"]');
