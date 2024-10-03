@@ -82,21 +82,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     articleList.addEventListener('click', function(e) {
         e.preventDefault();
-        if (e.target.tagName === 'A') {
-            const mdFile = e.target.getAttribute('data-md');
+        const link = e.target.closest('a');
+        if (link && link.hasAttribute('data-md')) {
+            const mdFile = link.getAttribute('data-md');
             loadMarkdownFile(mdFile);
         }
     });
 
     function loadMarkdownFile(file) {
         fetch(file)
-            .then(response => response.text())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
             .then(text => {
                 articleContent.innerHTML = marked.parse(text);
                 articleList.style.display = 'none';
                 articleContent.style.display = 'block';
             })
-            .catch(error => console.error('Error loading the Markdown file:', error));
+            .catch(error => {
+                console.error('Error loading the Markdown file:', error);
+                articleContent.innerHTML = '<p>Error loading article. Please try again later.</p>';
+            });
     }
 
     // Add return button functionality
