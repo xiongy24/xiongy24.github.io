@@ -34,13 +34,16 @@
 
 ### 机械臂
 1. 🦾 [PAROL6桌面机械臂](https://github.com/xiongy24/PAROL6-Desktop-robot-arm)
-2. 🏗️ [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
-3. 🦾 [lerobot机械臂](https://github.com/huggingface/lerobot)
+2. 🤖 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
+3. 🦿 [lerobot机械臂](https://github.com/huggingface/lerobot)
 
 ### 双足机器人
 1. 🏃 [SMPL Olympics](https://github.com/SMPLOlympics/SMPLOlympics)
 2. 🦆 [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
-3. 🏃 [robocasa](https://github.com/robocasa/robocasa)
+3. 🚶 [robocasa](https://github.com/robocasa/robocasa)
+
+### 机器人前沿技术
+1. 🤖 [ManiSkill（一款高性能的 GPU 并行化机器人模拟器，支持多机器人模拟）](https://github.com/haosulab/ManiSkill)
 
 
 ## 📞 联系方式
