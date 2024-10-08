@@ -123,4 +123,26 @@ document.addEventListener('DOMContentLoaded', function() {
     articleList.addEventListener('click', function() {
         backButton.style.display = 'block';
     });
+
+    // 知识库密码保护
+    const knowledgeBaseLogin = document.getElementById('knowledge-base-login');
+    const knowledgeBaseContent = document.getElementById('knowledge-base-content');
+    const knowledgeBasePassword = document.getElementById('knowledge-base-password');
+    const knowledgeBaseSubmit = document.getElementById('knowledge-base-submit');
+
+    knowledgeBaseSubmit.addEventListener('click', function() {
+        if (knowledgeBasePassword.value === '20241008') {
+            knowledgeBaseLogin.style.display = 'none';
+            knowledgeBaseContent.style.display = 'block';
+        } else {
+            alert('密码错误，请重试。');
+        }
+    });
+
+    // 当切换到知识库页面时，重置密码输入
+    document.querySelector('a[data-page="knowledge-base"]').addEventListener('click', function() {
+        knowledgeBaseLogin.style.display = 'block';
+        knowledgeBaseContent.style.display = 'none';
+        knowledgeBasePassword.value = '';
+    });
 });

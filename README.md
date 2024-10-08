@@ -58,6 +58,16 @@
 1. 🤖 [ManiSkill（一款高性能的 GPU 并行化机器人模拟器，支持多机器人模拟）](https://github.com/haosulab/ManiSkill)
 
 
+## 📚 我的知识库
+
+这里是我学习和积累的各种知识点，涵盖了机器人技术、编程、人工智能等领域。
+
+- [机器人运动学基础](link-to-robotics-kinematics)
+- [ROS2入门指南](link-to-ros2-guide)
+- [Python在机器学习中的应用](link-to-python-ml)
+- [机器视觉算法总结](link-to-computer-vision)
+- [机器人仿真环境搭建](link-to-robot-simulation)
+
 ## 📞 联系方式
 
 - 📧 Email: 3344898143@qq.com
