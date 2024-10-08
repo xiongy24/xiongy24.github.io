@@ -130,19 +130,35 @@ document.addEventListener('DOMContentLoaded', function() {
     const knowledgeBasePassword = document.getElementById('knowledge-base-password');
     const knowledgeBaseSubmit = document.getElementById('knowledge-base-submit');
 
+    if (!knowledgeBaseLogin || !knowledgeBaseContent || !knowledgeBasePassword || !knowledgeBaseSubmit) {
+        console.error('无法找到知识库相关的DOM元素');
+        return;
+    }
+
     knowledgeBaseSubmit.addEventListener('click', function() {
+        console.log('提交按钮被点击');
         if (knowledgeBasePassword.value === '20241008') {
+            console.log('密码正确');
             knowledgeBaseLogin.style.display = 'none';
             knowledgeBaseContent.style.display = 'block';
         } else {
+            console.log('密码错误');
             alert('密码错误，请重试。');
         }
     });
 
     // 当切换到知识库页面时，重置密码输入
-    document.querySelector('a[data-page="knowledge-base"]').addEventListener('click', function() {
-        knowledgeBaseLogin.style.display = 'block';
-        knowledgeBaseContent.style.display = 'none';
-        knowledgeBasePassword.value = '';
-    });
+    const knowledgeBaseLink = document.querySelector('a[data-page="knowledge-base"]');
+    if (knowledgeBaseLink) {
+        knowledgeBaseLink.addEventListener('click', function() {
+            console.log('切换到知识库页面');
+            knowledgeBaseLogin.style.display = 'block';
+            knowledgeBaseContent.style.display = 'none';
+            knowledgeBasePassword.value = '';
+        });
+    } else {
+        console.error('无法找到知识库链接');
+    }
+
+    console.log('知识库相关的事件监听器已设置');
 });
