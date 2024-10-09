@@ -54,6 +54,7 @@
 2. 🦆 [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
 3. 🚶 [robocasa](https://github.com/robocasa/robocasa)
 4. [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
+5. [human2humanoid实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
 
 
 ### 机器人前沿技术
