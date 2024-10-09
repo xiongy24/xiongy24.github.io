@@ -56,6 +56,7 @@
 
 ### 机器人前沿技术
 1. 🤖 [ManiSkill（一款高性能的 GPU 并行化机器人模拟器，支持多机器人模拟）](https://github.com/haosulab/ManiSkill)
+2. [Rofunc：机器人演示和机器人操作的全流程 Python 包](https://github.com/Skylark0924/Rofunc)
 
 
 ## 📚 我的知识库
