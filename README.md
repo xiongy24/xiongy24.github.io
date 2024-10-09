@@ -60,6 +60,7 @@
 1. 🤖 [ManiSkill：一款高性能的 GPU 并行化机器人模拟器，支持多机器人模拟](https://github.com/haosulab/ManiSkill)
 2. [Rofunc：机器人演示和机器人操作的全流程 Python 包](https://github.com/Skylark0924/Rofunc)
 3. [skrl：模块化强化学习库](https://github.com/Toni-SM/skrl)
+4. [MaskedMimic：一种基于物理的统一角色控制方法](https://research.nvidia.com/labs/par/maskedmimic/)
 
 
 ## 📚 我的知识库
