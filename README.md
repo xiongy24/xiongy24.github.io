@@ -53,6 +53,8 @@
 1. 🏃 [SMPL Olympics](https://github.com/SMPLOlympics/SMPLOlympics)
 2. 🦆 [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
 3. 🚶 [robocasa](https://github.com/robocasa/robocasa)
+4. [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
+
 
 ### 机器人前沿技术
 1. 🤖 [ManiSkill：一款高性能的 GPU 并行化机器人模拟器，支持多机器人模拟](https://github.com/haosulab/ManiSkill)
