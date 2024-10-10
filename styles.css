@@ -231,3 +231,26 @@ footer {
 .logo a:hover {
     transform: scale(1.05);
 }
+
+.expandable {
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+}
+
+.expandable::after {
+    content: '▼';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+}
+
+.expandable.expanded::after {
+    content: '▲';
+}
+
+.expandable-content {
+    margin-left: 20px;
+}

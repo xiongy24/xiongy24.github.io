@@ -162,3 +162,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log('知识库相关的事件监听器已设置');
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const expandables = document.querySelectorAll('.expandable');
+    
+    expandables.forEach(item => {
+        item.addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+                this.classList.add('expanded');
+            } else {
+                content.style.display = 'none';
+                this.classList.remove('expanded');
+            }
+        });
+    });
+});
