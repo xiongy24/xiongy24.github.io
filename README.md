@@ -69,7 +69,7 @@
 
 #### 🗨️ 对话与语言模型
 1. 📝 [ChatGPT：OpenAI开发的大型语言模型](https://chat.openai.com/)
-2. 📊 [MemFree：混合 AI 搜索引擎。](https://github.com/memfreeme/memfree)
+
 
 #### 🎨 图像生成
 1. 🎨 [Midjourney：AI艺术生成工具](https://www.midjourney.com/)
@@ -89,7 +89,7 @@
 
 #### 🔍 搜索与研究
 1. 🔍 [Perplexity AI：AI驱动的搜索引擎](https://www.perplexity.ai/)
-2. 🧑‍🔬 [Elicit：AI驱动的研究助手](https://elicit.org/)
+2. 🧑‍🔬 [MemFree：混合AI搜索引擎](https://github.com/memfreeme/memfree)
 
 
 
