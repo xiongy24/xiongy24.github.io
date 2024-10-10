@@ -63,6 +63,9 @@
 3. [skrl：模块化强化学习库](https://github.com/Toni-SM/skrl)
 4. [MaskedMimic：一种基于物理的统一角色控制方法](https://research.nvidia.com/labs/par/maskedmimic/)
 
+### 机器人Sim2Real 迁移
+1.[SplatSim：使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 迁移](https://splatsim.github.io/)
+
 
 ## 📚 我的知识库
 
