@@ -54,26 +54,26 @@
 #### 双足机器人
 1. 🏃 [SMPL Olympics：专注于人体运动的项目](https://github.com/SMPLOlympics/SMPLOlympics)
 2. 🦆 [Open Duck Mini：迪士尼 BDX 机器人的迷你版本](https://github.com/apirrone/Open_Duck_Mini)
-3. 🚶 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
-4. 🤖 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
-5. 🦾 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
+3. 🤖 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
+4. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
+5. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
 
 ##### mujoco仿真
-1.🏃[LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
-2.🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
-3.[]()
+1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
+2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
+
 
 
 #### 机器人前沿技术
-1. 🤖 [ManiSkill：高性能 GPU 并行化机器人模拟器](https://github.com/haosulab/ManiSkill)
+1. 🖥️ [ManiSkill：高性能 GPU 并行化机器人模拟器](https://github.com/haosulab/ManiSkill)
 2. 🐍 [Rofunc：机器人演示和操作的全流程 Python 包](https://github.com/Skylark0924/Rofunc)
 3. 🧠 [skrl：模块化强化学习库](https://github.com/Toni-SM/skrl)
 4. 🎭 [MaskedMimic：基于物理的统一角色控制方法](https://research.nvidia.com/labs/par/maskedmimic/)
 5. 🌐 [SplatSim：使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 迁移](https://splatsim.github.io/)
-6. 🤖 [PHC：一种基于物理的人形控制器](https://github.com/ZhengyiLuo/PHC)
-7. 🤖 [RoboPoint：用于机器人空间可供性预测的视觉语言模型](https://robo-point.github.io/)
-8. 🤖 [基于全阶采样的MPC通过扩散式退火实现扭矩级运动控制](https://lecar-lab.github.io/dial-mpc/)
-9. 🤖 [RoboGen：通过生成模拟释放无限数据，实现机器人自动学习](https://github.com/Genesis-Embodied-AI/RoboGen)
+6. 🦿 [PHC：一种基于物理的人形控制器](https://github.com/ZhengyiLuo/PHC)
+7. 👁️ [RoboPoint：用于机器人空间可供性预测的视觉语言模型](https://robo-point.github.io/)
+8. 🔄 [基于全阶采样的MPC通过扩散式退火实现扭矩级运动控制](https://lecar-lab.github.io/dial-mpc/)
+9. 🧪 [RoboGen：通过生成模拟释放无限数据，实现机器人自动学习](https://github.com/Genesis-Embodied-AI/RoboGen)
 
 ### 🧠 AI实用工具
 
