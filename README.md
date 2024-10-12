@@ -94,8 +94,9 @@
 #### 🔊 AI翻译
 1. 🗣️ [精准翻译](https://x-doc.ai/)
 
-#### 🎵 音乐生成
+#### 🎵 音频生成
 1. 🎵 [Mubert：AI音乐生成工具](https://mubert.com/)
+2. [PDF2Audio:PDF生成播客](https://github.com/lamm-mit/PDF2Audio)
 
 #### 📹 视频编辑
 1. 📹 [Runway：AI视频编辑工具](https://runwayml.com/)
