@@ -87,8 +87,8 @@
 1. 🎨 [Midjourney：AI艺术生成工具](https://www.midjourney.com/)
 2. 🖼️ [DALL-E：OpenAI的文本到图像生成模型](https://openai.com/dall-e-2)
 
-#### 🔊 语音识别
-1. 🗣️ [Whisper：OpenAI的语音识别模型](https://github.com/openai/whisper)
+#### 🔊 AI翻译
+1. 🗣️ [精准翻译](https://x-doc.ai/)
 
 #### 🎵 音乐生成
 1. 🎵 [Mubert：AI音乐生成工具](https://mubert.com/)
