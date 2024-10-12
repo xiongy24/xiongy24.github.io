@@ -47,9 +47,12 @@
 ### 🤖 机器人技术
 
 #### 机械臂
+#####开源机械臂
 1. 🦾 [PAROL6桌面机械臂](https://github.com/xiongy24/PAROL6-Desktop-robot-arm)
 2. 🤖 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
 3. 🦿 [lerobot机械臂](https://github.com/huggingface/lerobot)
+#####大模型与机械臂
+1.[RDT-1B：双手操作的扩散基础模型](https://rdt-robotics.github.io/rdt-robotics/)
 
 #### 双足机器人
 1. 🏃 [SMPL Olympics：专注于人体运动的项目](https://github.com/SMPLOlympics/SMPLOlympics)
