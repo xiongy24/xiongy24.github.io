@@ -36,24 +36,25 @@
 - 🍣 排骨年糕
 - 🍜 沙茶面
 - 🍕 烧饼
-- 烤板栗
+- 🌰 烤板栗
 
 ### 📸 旅行摄影作品
 - [城市探索](link-to-city-gallery)
 - [自然风光](link-to-nature-gallery)
 - [美食纪实](link-to-food-gallery)
 
-## 🔬 正在关注的项目
+## 🔬 正在关注的开源项目
 
 ### 🤖 机器人技术
 
 #### 机械臂
+
 #####开源机械臂
 1. 🦾 [PAROL6桌面机械臂](https://github.com/xiongy24/PAROL6-Desktop-robot-arm)
-2. 🤖 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
-3. 🦿 [lerobot机械臂](https://github.com/huggingface/lerobot)
+2. 🦿 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
+3. 🤖 [lerobot机械臂](https://github.com/huggingface/lerobot)
 #####大模型与机械臂
-1.[RDT-1B：双手操作的扩散基础模型](https://rdt-robotics.github.io/rdt-robotics/)
+1. 🧠 [RDT-1B：双手操作的扩散基础模型](https://rdt-robotics.github.io/rdt-robotics/)
 
 #### 双足机器人
 1. 🏃 [SMPL Olympics：专注于人体运动的项目](https://github.com/SMPLOlympics/SMPLOlympics)
@@ -65,10 +66,9 @@
 ##### mujoco仿真
 1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
 2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
-3. [RoboHive:机器人学习的统一框架](https://github.com/vikashplus/robohive)
-4. [bigym:一个开源的移动双臂操作基准测试平台](https://github.com/chernyadev/bigym)
-5. [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
-
+3. 🤖 [RoboHive:机器人学习的统一框架](https://github.com/vikashplus/robohive)
+4. 💪 [bigym:一个开源的移动双臂操作基准测试平台](https://github.com/chernyadev/bigym)
+5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
 
 
 #### 机器人前沿技术
@@ -124,9 +124,9 @@
 
 - 📧 Email: 3344898143@qq.com
 - 👨‍💻 GitHub: [xiongy](https://github.com/xiongy24)
-- 知乎：[zhihu](https://www.zhihu.com/people/wo-bei-peng-hao-13)
-- B站：[Bzhan](https://www.bilibili.com/)
-- CSDN：[CSDN](https://blog.csdn.net/2301_81924597?type=blog)
+- 🧠 知乎：[zhihu](https://www.zhihu.com/people/wo-bei-peng-hao-13)
+- 📺 B站：[Bzhan](https://www.bilibili.com/)
+- 📝 CSDN：[CSDN](https://blog.csdn.net/2301_81924597?type=blog)
 
 ---
 © 2024 xiongy | 📡 [RSS订阅](#)
