@@ -120,10 +120,13 @@
 - [机器视觉算法总结](link-to-computer-vision)
 - [机器人仿真环境搭建](link-to-robot-simulation)
 
-## 📞 联系方式
+## 📞 社交账号
 
 - 📧 Email: 3344898143@qq.com
 - 👨‍💻 GitHub: [xiongy](https://github.com/xiongy24)
+- 知乎：[zhihu](https://www.zhihu.com/people/wo-bei-peng-hao-13)
+- B站：[Bzhan](https://www.bilibili.com/)
+- CSDN：[CSDN](https://blog.csdn.net/2301_81924597?type=blog)
 
 ---
 © 2024 xiongy | 📡 [RSS订阅](#)
