@@ -64,6 +64,7 @@
 ##### mujoco仿真
 1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
 2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
+3. [RoboHive:机器人学习的统一框架](https://github.com/vikashplus/robohive)
 
 
 
