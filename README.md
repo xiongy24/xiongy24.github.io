@@ -92,6 +92,7 @@
 7. 👁️ [RoboPoint：用于机器人空间可供性预测的视觉语言模型](https://robo-point.github.io/)
 8. 🔄 [基于全阶采样的MPC通过扩散式退火实现扭矩级运动控制](https://lecar-lab.github.io/dial-mpc/)
 9. 🧪 [RoboGen：通过生成模拟释放无限数据，实现机器人自动学习](https://github.com/Genesis-Embodied-AI/RoboGen)
+10. [ProtoMotions：基于物理的角色动画](https://github.com/NVlabs/ProtoMotions/tree/main)
 
 ### 🧠 AI实用工具
 
