@@ -72,6 +72,7 @@
 4. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
 5. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
 6. [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
+7. [Tinker:国内开源的迪士尼 BDX 机器人]（https://github.com/Yuexuan9/Tinker）
 
 #### 四足机器人
 1.[spot micro]
