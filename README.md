@@ -73,6 +73,11 @@
 5. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
 6. [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
 
+#### 四足机器人
+1.[spot micro]
+  [适用于开源四足机器人（SpotMicro）的 OpenAI Gym 环境](https://github.com/nicrusso7/rex-gym?tab=readme-ov-file)
+  [SPOT Micro 及其改进的逆运动学控制软件](https://www.youtube.com/watch?v=oqUjJDkn_ZA)
+
 ##### mujoco仿真
 
 1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
