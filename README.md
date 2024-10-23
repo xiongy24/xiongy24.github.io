@@ -76,9 +76,10 @@
 
 #### 四足机器人
 1.[spot micro](https://spotmicroai.readthedocs.io/en/latest/)
- 2. [适用于开源四足机器人（SpotMicro）的 OpenAI Gym 环境](https://github.com/nicrusso7/rex-gym?tab=readme-ov-file)
- 3. [SPOT Micro 及其改进的逆运动学控制软件](https://www.youtube.com/watch?v=oqUjJDkn_ZA)
- 4.[手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
+  [适用于开源四足机器人（SpotMicro）的 OpenAI Gym 环境](https://github.com/nicrusso7/rex-gym?tab=readme-ov-file)
+  [SPOT Micro 及其改进的逆运动学控制软件](https://www.youtube.com/watch?v=oqUjJDkn_ZA)
+ [手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
+ [NovaSM3版](https://novaspotmicro.com/parts-list.html)
 
 ##### mujoco仿真
 
