@@ -71,15 +71,15 @@
 3. 🤖 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
 4. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
 5. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
-6. [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
-7. [Tinker:国内开源的迪士尼 BDX 机器人]（https://github.com/Yuexuan9/Tinker）
+6. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
+7. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
 
 #### 四足机器人
-1.[spot micro](https://gitlab.com/public-open-source/spotmicroai)
-  [适用于开源四足机器人（SpotMicro）的 OpenAI Gym 环境](https://github.com/nicrusso7/rex-gym?tab=readme-ov-file)
-  [SPOT Micro 及其改进的逆运动学控制软件](https://www.youtube.com/watch?v=oqUjJDkn_ZA)
- [手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
- [NovaSM3版](https://novaspotmicro.com/parts-list.html)
+1. 🐕 [spot micro](https://gitlab.com/public-open-source/spotmicroai)
+  ① 🏋️ [适用于开源四足机器人（SpotMicro）的 OpenAI Gym 环境](https://github.com/nicrusso7/rex-gym?tab=readme-ov-file)
+  ② 🦿 [SPOT Micro 及其改进的逆运动学控制软件](https://www.youtube.com/watch?v=oqUjJDkn_ZA)
+  ③ 🛠️ [手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
+  ④ 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
 
 ##### mujoco仿真
 
@@ -100,8 +100,8 @@
 7. 👁️ [RoboPoint：用于机器人空间可供性预测的视觉语言模型](https://robo-point.github.io/)
 8. 🔄 [基于全阶采样的MPC通过扩散式退火实现扭矩级运动控制](https://lecar-lab.github.io/dial-mpc/)
 9. 🧪 [RoboGen：通过生成模拟释放无限数据，实现机器人自动学习](https://github.com/Genesis-Embodied-AI/RoboGen)
-10. [ProtoMotions：基于物理的角色动画](https://github.com/NVlabs/ProtoMotions/tree/main)
-11. [CooHOI：通过操纵物体动力学学习人与物体的协同交互](https://github.com/Winston-Gu/CooHOI)
+10. 🎬 [ProtoMotions：基于物理的角色动画](https://github.com/NVlabs/ProtoMotions/tree/main)
+11. 🤝 [CooHOI：通过操纵物体动力学学习人与物体的协同交互](https://github.com/Winston-Gu/CooHOI)
 
 ### 🧠 AI实用工具
 
@@ -121,7 +121,7 @@
 #### 🎵 音频生成
 
 1. 🎵 [Mubert：AI音乐生成工具](https://mubert.com/)
-2. [PDF2Audio:PDF生成播客](https://github.com/lamm-mit/PDF2Audio)
+2. 🎙️ [PDF2Audio:PDF生成播客](https://github.com/lamm-mit/PDF2Audio)
 
 #### 📹 视频编辑
 
@@ -140,11 +140,11 @@
 
 这里是我学习和积累的各种知识点，涵盖了机器人技术、编程、人工智能等领域。
 
-- [机器人运动学基础](link-to-robotics-kinematics)
-- [ROS2入门指南](link-to-ros2-guide)
-- [Python在机器学习中的应用](link-to-python-ml)
-- [机器视觉算法总结](link-to-computer-vision)
-- [机器人仿真环境搭建](link-to-robot-simulation)
+- 🤖 [机器人运动学基础](link-to-robotics-kinematics)
+- 🚀 [ROS2入门指南](link-to-ros2-guide)
+- 🐍 [Python在机器学习中的应用](link-to-python-ml)
+- 👁️ [机器视觉算法总结](link-to-computer-vision)
+- 🖥️ [机器人仿真环境搭建](link-to-robot-simulation)
 
 ## 📞 社交账号
 
