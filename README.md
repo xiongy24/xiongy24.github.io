@@ -128,9 +128,9 @@
 
 1. 📹 [Runway：AI视频编辑工具](https://runwayml.com/)
 
-#### 💻 编程辅助
+#### 💻 RAG
 
-1. 💻 [GitHub Copilot：AI辅助编程工具](https://github.com/features/copilot)
+1. 💻 [RAGFlow:一款基于深度文档理解构建的开源 RAG引擎](https://github.com/infiniflow/ragflow/tree/main)
 
 #### 🔍 搜索与研究
 
