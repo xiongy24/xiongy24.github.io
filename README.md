@@ -70,11 +70,13 @@
 1. 🏃 [SMPL Olympics：专注于人体运动的项目](https://github.com/SMPLOlympics/SMPLOlympics)
 2. [Humanoid-Gym：使用 Zero-Sim2Real 迁移进行人形机器人强化学习](https://github.com/roboterax/humanoid-gym.git)
 3. 🦆 [Open Duck Mini：迪士尼 BDX 机器人的迷你版本](https://github.com/apirrone/Open_Duck_Mini)
-4. 🤖 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
-5. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
-6. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
-7. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
-8. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
+   - [isaacgym仿真](https://github.com/apirrone/AMP_for_hardware/tree/bdx)
+   - [isaaclab仿真](https://github.com/MankaranSingh/IsaacLab/tree/eye-candy)
+5. 🤖 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
+6. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
+7. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
+8. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
+9. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
 
 #### 四足机器人
 
