@@ -104,6 +104,7 @@
 9. 🧪 [RoboGen：通过生成模拟释放无限数据，实现机器人自动学习](https://github.com/Genesis-Embodied-AI/RoboGen)
 10. 🎬 [ProtoMotions：基于物理的角色动画](https://github.com/NVlabs/ProtoMotions/tree/main)
 11. 🤝 [CooHOI：通过操纵物体动力学学习人与物体的协同交互](https://github.com/Winston-Gu/CooHOI)
+12. [ROSA:ROS1 和 ROS2 系统的 AI 助手](https://github.com/nasa-jpl/rosa)
 
 ### 🧠 AI实用工具
 
