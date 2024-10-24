@@ -59,6 +59,7 @@
 1. 🦾 [PAROL6桌面机械臂](https://github.com/xiongy24/PAROL6-Desktop-robot-arm)
 2. 🦿 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
 3. 🤖 [lerobot机械臂](https://github.com/huggingface/lerobot)
+   - [STL 文件和固件GUI ](https://github.com/TheRobotStudio/SO-ARM100)
 
 ##### 大模型与机械臂
 
