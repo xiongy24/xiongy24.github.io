@@ -128,9 +128,9 @@
 1. 🎵 [Mubert：AI音乐生成工具](https://mubert.com/)
 2. 🎙️ [PDF2Audio:PDF生成播客](https://github.com/lamm-mit/PDF2Audio)
 
-#### 📹 视频编辑
+#### 📹 代码阅读
 
-1. 📹 [Runway：AI视频编辑工具](https://runwayml.com/)
+1. 📹 [快速把GitHub链接转换成LLM可阅读格式的工具](https://githubtollm.replit.app/)
 
 #### 💻 RAG
 
