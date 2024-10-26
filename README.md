@@ -52,42 +52,42 @@
 
 ### 🤖 机器人技术
 
-#### 机械臂
+#### 🦾 机械臂
 
-##### 开源机械臂
+##### 🛠️ 开源机械臂
 
 1. 🦾 [PAROL6桌面机械臂](https://github.com/xiongy24/PAROL6-Desktop-robot-arm)
 2. 🦿 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
 3. 🤖 [lerobot机械臂](https://github.com/huggingface/lerobot)
-   - [STL 文件和固件GUI ](https://github.com/TheRobotStudio/SO-ARM100)
+   - 🛠️ [STL 文件和固件GUI ](https://github.com/TheRobotStudio/SO-ARM100)
 
-##### 大模型与机械臂
+##### 🧠 大模型与机械臂
 
 1. 🧠 [RDT-1B：双手操作的扩散基础模型](https://rdt-robotics.github.io/rdt-robotics/)
 
-#### 双足机器人
+#### 🚶 双足机器人
 
 1. 🏃 [SMPL Olympics：专注于人体运动的项目](https://github.com/SMPLOlympics/SMPLOlympics)
-2. [Humanoid-Gym：使用 Zero-Sim2Real 迁移进行人形机器人强化学习](https://github.com/roboterax/humanoid-gym.git)
+2. 🤖 [Humanoid-Gym：使用 Zero-Sim2Real 迁移进行人形机器人强化学习](https://github.com/roboterax/humanoid-gym.git)
 3. 🦆 [Open Duck Mini：迪士尼 BDX 机器人的迷你版本](https://github.com/apirrone/Open_Duck_Mini)
-   - [isaacgym仿真](https://github.com/apirrone/AMP_for_hardware/tree/bdx)
-   - [isaaclab仿真](https://github.com/MankaranSingh/IsaacLab/tree/eye-candy)
-5. 🤖 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
-6. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
-7. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
-8. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
-9. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
+   - 🖥️ [isaacgym仿真](https://github.com/apirrone/AMP_for_hardware/tree/bdx)
+   - 🖥️ [isaaclab仿真](https://github.com/MankaranSingh/IsaacLab/tree/eye-candy)
+4. 🤖 [robocasa：用于训练通用机器人执行日常任务的大规模模拟框架](https://github.com/robocasa/robocasa)
+5. 🦿 [Unitree Go2/G1 数字孪生项目](https://github.com/abizovnuralem/go2_omniverse)
+6. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
+7. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
+8. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
 
-#### 四足机器人
+#### 🐕 四足机器人
 
 1. 🐕 [spot micro](https://gitlab.com/public-open-source/spotmicroai)
    - 🏋️ [适用于开源四足机器人（SpotMicro）的 OpenAI Gym 环境](https://github.com/nicrusso7/rex-gym?tab=readme-ov-file)
    - 🦿 [SPOT Micro 及其改进的逆运动学控制软件](https://www.youtube.com/watch?v=oqUjJDkn_ZA)
    - 🛠️ [手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
    - 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
-   - [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
+   - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
 
-##### mujoco仿真
+#### 🏋️ mujoco仿真
 
 1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
 2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
@@ -95,7 +95,7 @@
 4. 💪 [bigym:一个开源的移动双臂操作基准测试平台](https://github.com/chernyadev/bigym)
 5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
 
-#### 机器人前沿技术
+#### 🔬 机器人前沿技术
 
 1. 🖥️ [ManiSkill：高性能 GPU 并行化机器人模拟器](https://github.com/haosulab/ManiSkill)
 2. 🐍 [Rofunc：机器人演示和操作的全流程 Python 包](https://github.com/Skylark0924/Rofunc)
@@ -108,8 +108,8 @@
 9. 🧪 [RoboGen：通过生成模拟释放无限数据，实现机器人自动学习](https://github.com/Genesis-Embodied-AI/RoboGen)
 10. 🎬 [ProtoMotions：基于物理的角色动画](https://github.com/NVlabs/ProtoMotions/tree/main)
 11. 🤝 [CooHOI：通过操纵物体动力学学习人与物体的协同交互](https://github.com/Winston-Gu/CooHOI)
-12. [ROSA:ROS1 和 ROS2 系统的 AI 助手](https://github.com/nasa-jpl/rosa)
-13. [RAI:一个用于机器人的多供应商代理框架](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos)
+12. 🤖 [ROSA:ROS1 和 ROS2 系统的 AI 助手](https://github.com/nasa-jpl/rosa)
+13. 🔧 [RAI:一个用于机器人的多供应商代理框架](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos)
 
 ### 🧠 AI实用工具
 
@@ -144,7 +144,7 @@
 
 1. 🔍 [Perplexity AI：AI驱动的搜索引擎](https://www.perplexity.ai/)
 2. 🧑‍🔬 [MemFree：混合AI搜索引擎](https://github.com/memfreeme/memfree)
-3. [跨语言搜索](https://bilin.ai/zh-CN)
+3. 🔍 [跨语言搜索](https://bilin.ai/zh-CN)
 
 ## 📚 我的知识库
 
@@ -167,3 +167,4 @@
 ---
 
 © 2024 xiongy | 📡 [RSS订阅](#)
+
