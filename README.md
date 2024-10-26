@@ -85,6 +85,7 @@
    - 🦿 [SPOT Micro 及其改进的逆运动学控制软件](https://www.youtube.com/watch?v=oqUjJDkn_ZA)
    - 🛠️ [手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
    - 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
+   - [SpotMicroESP32(包含全套方案)](https://github.com/michaelkubina/SpotMicroESP32/tree/master)
 
 ##### mujoco仿真
 
