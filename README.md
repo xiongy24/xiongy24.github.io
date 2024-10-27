@@ -87,6 +87,10 @@
    - 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
    - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
 
+####  轮足机器人
+1.[Wheel Legged Gym Environments](https://github.com/clearlab-sustech/Wheel-Legged-Gym/tree/master)
+
+
 #### 🏋️ mujoco仿真
 
 1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
