@@ -150,6 +150,7 @@
 1. 🔍 [Perplexity AI：AI驱动的搜索引擎](https://www.perplexity.ai/)
 2. 🧑‍🔬 [MemFree：混合AI搜索引擎](https://github.com/memfreeme/memfree)
 3. 🔍 [跨语言搜索](https://bilin.ai/zh-CN)
+4. [Felo](https://felo.ai/search)
 
 ## 📚 我的知识库
 
