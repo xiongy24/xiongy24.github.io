@@ -122,6 +122,10 @@
 
 1. 📝 [ChatGPT：OpenAI开发的大型语言模型](https://chat.openai.com/)
 
+####  AI辅助写作工具
+1.[notion](https://www.notion.so/)
+2.[Napkin AI](https://www.napkin.ai/)
+
 #### 🎨 图像生成
 
 1. 🎨 [Midjourney：AI艺术生成工具](https://www.midjourney.com/)
