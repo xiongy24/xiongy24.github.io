@@ -115,6 +115,7 @@
 11. 🤝 [CooHOI：通过操纵物体动力学学习人与物体的协同交互](https://github.com/Winston-Gu/CooHOI)
 12. 🤖 [ROSA:ROS1 和 ROS2 系统的 AI 助手](https://github.com/nasa-jpl/rosa)
 13. 🔧 [RAI:一个用于机器人的多供应商代理框架](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos)
+14. [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
 
 
 ### 🧠 AI实用工具
