@@ -131,9 +131,9 @@
 1.[notion](https://www.notion.so/)
 2.[Napkin AI](https://www.napkin.ai/)
 
-#### 🎨 图像生成
+#### 🎨 文档识别
 
-1. 🎨 [Midjourney：AI艺术生成工具](https://www.midjourney.com/)
+1. 🎨 [将任何图像或 PDF 转换为超高精度的 Markdown 文本或 JSON 结构化文档](https://github.com/CatchTheTornado/pdf-extract-api)
 2. 🖼️ [DALL-E：OpenAI的文本到图像生成模型](https://openai.com/dall-e-2)
 
 #### 🔊 AI翻译
