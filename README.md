@@ -28,13 +28,13 @@
 ## 🚀 个人项目
 ###机器人类
 1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
-2. [使用强化学习实现轮足机器人的运动控制]
-3. [开源spotmicro机器狗复现及改进]
+2. 🦿 [使用强化学习实现轮足机器人的运动控制]
+3. 🐕 [开源spotmicro机器狗复现及改进]
 
-###工具类
+### 🔧 工具类
 1. 📝 使用coze开发的英文文献阅读Bot
-2. “第二大脑”桌面助手程序
-3. “吾知”学习助手程序
+2. 🤝 "第二大脑"桌面助手程序
+3. 📚 "吾知"学习助手程序
 
 ###其他
 
@@ -96,9 +96,9 @@
    - 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
    - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
 
-####  轮足机器人
-1.[Wheel Legged Gym Environments](https://github.com/clearlab-sustech/Wheel-Legged-Gym/tree/master)
-2.[Isaac-RL-Two-wheel-Legged-Bot](https://github.com/jaykorea/Isaac-RL-Two-wheel-Legged-Bot)
+#### 🦾 轮足机器人
+1. 🎮 [Wheel Legged Gym Environments](https://github.com/clearlab-sustech/Wheel-Legged-Gym/tree/master)
+2. 🔄 [Isaac-RL-Two-wheel-Legged-Bot](https://github.com/jaykorea/Isaac-RL-Two-wheel-Legged-Bot)
 
 
 #### 🏋️ mujoco仿真
@@ -112,22 +112,22 @@
 #### 🔬 机器人前沿技术
 
 1. 🖥️ [ManiSkill：高性能 GPU 并行化机器人模拟器](https://github.com/haosulab/ManiSkill)
-2. 🐍 [Rofunc：机器人演示和操作的全流程 Python 包](https://github.com/Skylark0924/Rofunc)
-3. 🧠 [skrl：模块化强化学习库](https://github.com/Toni-SM/skrl)
+2. 🔧 [Rofunc：机器人演示和操作的全流程 Python 包](https://github.com/Skylark0924/Rofunc)
+3. 🎯 [skrl：模块化强化学习库](https://github.com/Toni-SM/skrl)
 4. 🎭 [MaskedMimic：基于物理的统一角色控制方法](https://research.nvidia.com/labs/par/maskedmimic/)
 5. 🌐 [SplatSim：使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 迁移](https://splatsim.github.io/)
-6. [PhysHOI：基于物理的动态人机交互模拟](https://github.com/wyhuai/PhysHOI)
+6. 🤖 [PhysHOI：基于物理的动态人机交互模拟](https://github.com/wyhuai/PhysHOI)
 7. 🦿 [PHC：一种基于物理的人形控制器](https://github.com/ZhengyiLuo/PHC)
 8. 👁️ [RoboPoint：用于机器人空间可供性预测的视觉语言模型](https://robo-point.github.io/)
-9. 🔄 [基于全阶采样的MPC通过扩散式退火实现扭矩级运动控制](https://lecar-lab.github.io/dial-mpc/)
+9. ⚡ [基于全阶采样的MPC通过扩散式退火实现扭矩级运动控制](https://lecar-lab.github.io/dial-mpc/)
 10. 🧪 [RoboGen：通过生成模拟释放无限数据，实现机器人自动学习](https://github.com/Genesis-Embodied-AI/RoboGen)
 11. 🎬 [ProtoMotions：基于物理的角色动画](https://github.com/NVlabs/ProtoMotions/tree/main)
 12. 🤝 [CooHOI：通过操纵物体动力学学习人与物体的协同交互](https://github.com/Winston-Gu/CooHOI)
-13. 🤖 [ROSA:ROS1 和 ROS2 系统的 AI 助手](https://github.com/nasa-jpl/rosa)
-14. 🔧 [RAI:一个用于机器人的多供应商代理框架](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos)
-15. [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
-16. [GVHMR：:从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
-17. [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
+13. 🛠️ [ROSA:ROS1 和 ROS2 系统的 AI 助手](https://github.com/nasa-jpl/rosa)
+14. 🎮 [RAI:一个用于机器人的多供应商代理框架](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos)
+15. 🔨 [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
+16. 📹 [GVHMR：:从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
+17. 🌍 [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
 
 
 ### 🧠 AI实用工具
@@ -136,9 +136,9 @@
 
 1. 📝 [ChatGPT：OpenAI开发的大型语言模型](https://chat.openai.com/)
 
-####  AI辅助写作工具
-1.[notion](https://www.notion.so/)
-2.[Napkin AI](https://www.napkin.ai/)
+#### ✍️ AI辅助写作工具
+1. 📓 [notion](https://www.notion.so/)
+2. 🎯 [Napkin AI](https://www.napkin.ai/)
 
 #### 🎨 文档识别
 
@@ -161,19 +161,19 @@
 #### 💻 RAG
 
 1. 💻 [RAGFlow:一款基于深度文档理解构建的开源 RAG引擎](https://github.com/infiniflow/ragflow/tree/main)
-2. [Memento:可记录计算机上执行的所有操作，并允许回溯、搜索和与 LLM（大型语言模型）聊天以查找有关您所做操作的信息](https://github.com/apirrone/Memento)
-3. [Rocketnotes:由 LLM 提供支持的 Markdown 编辑器](https://github.com/fynnfluegge/rocketnotes)
+2. 💾 [Memento:可记录计算机上执行的所有操作，并允许回溯、搜索和与 LLM（大型语言模型）聊天以查找有关您所做操作的信息](https://github.com/apirrone/Memento)
+3. 📝 [Rocketnotes:由 LLM 提供支持的 Markdown 编辑器](https://github.com/fynnfluegge/rocketnotes)
 
 #### 🔍 搜索与研究
 
 1. 🔍 [Perplexity AI：AI驱动的搜索引擎](https://www.perplexity.ai/)
 2. 🧑‍🔬 [MemFree：混合AI搜索引擎](https://github.com/memfreeme/memfree)
 3. 🔍 [跨语言搜索](https://bilin.ai/zh-CN)
-4. [Felo](https://felo.ai/search)
+4. 🔎 [Felo](https://felo.ai/search)
 
 ## 📚 我的知识库
 
-这里是我学习和积累的各种知识点，涵盖了机器人技术、编程、人工智能等领域。
+这里是我学习和积累的各��知识点，涵盖了机器人技术、编程、人工智能等领域。
 
 - 🤖 [机器人运动学基础](link-to-robotics-kinematics)
 - 🚀 [ROS2入门指南](link-to-ros2-guide)
