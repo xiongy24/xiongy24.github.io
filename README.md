@@ -29,6 +29,7 @@
 ###机器人类
 1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
 2. [使用强化学习实现轮足机器人的运动控制]
+3. [开源spotmicro机器狗复现及改进]
 
 ###工具类
 1. 📝 使用coze开发的英文文献阅读Bot（正在进行中）
