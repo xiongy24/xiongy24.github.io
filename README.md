@@ -118,6 +118,7 @@
 13. 🔧 [RAI:一个用于机器人的多供应商代理框架](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos)
 14. [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
 15. [GVHMR：:从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
+16. [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
 
 
 ### 🧠 AI实用工具
