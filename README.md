@@ -69,6 +69,7 @@
 2. 🦿 [CompactRoboticArm机械臂](https://github.com/mvgjorge/CompactRoboticArm?tab=readme-ov-file)
 3. 🤖 [lerobot机械臂](https://github.com/huggingface/lerobot)
    - 🛠️ [STL 文件和固件GUI ](https://github.com/TheRobotStudio/SO-ARM100)
+   - [mg2hfbot:将 MimicGen 数据集转换为 LeRobot 格式，以训练和评估 ACT、BC 和扩散策略](https://github.com/kywch/mg2hfbot)
 
 ##### 🧠 大模型与机械臂
 
