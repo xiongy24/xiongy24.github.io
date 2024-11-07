@@ -129,6 +129,7 @@
 15. 🔨 [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
 16. 📹 [GVHMR：:从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
 17. 🌍 [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
+18. [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
 
 
 ### 🧠 AI实用工具
