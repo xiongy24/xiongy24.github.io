@@ -112,6 +112,9 @@
 4. 💪 [bigym:一个开源的移动双臂操作基准测试平台](https://github.com/chernyadev/bigym)
 5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
 
+####  isaac仿真
+1.[New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
+
 #### 🔬 机器人前沿技术
 
 1. 🖥️ [ManiSkill：高性能 GPU 并行化机器人模拟器](https://github.com/haosulab/ManiSkill)
