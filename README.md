@@ -135,6 +135,7 @@
 16. 📹 [GVHMR：:从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
 17. 🌍 [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
 18. [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
+19. [CLoSD:通过结合文本驱动的扩散生成和强化学习（RL）来实现人物动作的生成和执行](https://github.com/GuyTevet/CLoSD?tab=readme-ov-file)
 
 
 ### 🧠 AI实用工具
