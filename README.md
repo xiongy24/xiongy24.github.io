@@ -136,6 +136,8 @@
 17. 🌍 [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
 18. [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
 19. [CLoSD:通过结合文本驱动的扩散生成和强化学习（RL）来实现人物动作的生成和执行](https://github.com/GuyTevet/CLoSD?tab=readme-ov-file)
+20. [HOVER：人形机器人的多功能神经全身控制器](https://hover-versatile-humanoid.github.io/)
+![image](https://github.com/user-attachments/assets/ca980d7b-72af-474f-b3b9-5be26016529c)
 
 
 ### 🧠 AI实用工具
