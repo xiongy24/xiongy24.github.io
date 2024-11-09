@@ -168,6 +168,10 @@
 
 1. 📹 [快速把GitHub链接转换成LLM可阅读格式的工具](https://githubtollm.replit.app/)
 
+#### 📹 程序开发
+
+1.[🙌 OpenHands：少写代码，多做事](https://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file)
+
 #### 💻 RAG
 
 1. 💻 [RAGFlow:一款基于深度文档理解构建的开源 RAG引擎](https://github.com/infiniflow/ragflow/tree/main)
