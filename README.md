@@ -178,6 +178,10 @@
 2. 💾 [Memento:可记录计算机上执行的所有操作，并允许回溯、搜索和与 LLM（大型语言模型）聊天以查找有关您所做操作的信息](https://github.com/apirrone/Memento)
 3. 📝 [Rocketnotes:由 LLM 提供支持的 Markdown 编辑器](https://github.com/fynnfluegge/rocketnotes)
 
+#### 文档处理工具
+
+1.[完整保留版的PDF文档全文双语翻译，支持Google/DeepL/Ollama/OpenAI 翻译](https://github.com/Byaidu/PDFMathTranslate?tab=readme-ov-file)
+
 #### 🔍 搜索与研究
 
 1. 🔍 [Perplexity AI：AI驱动的搜索引擎](https://www.perplexity.ai/)
