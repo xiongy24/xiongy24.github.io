@@ -34,12 +34,12 @@
 
 ### 🔧 工具类
 1. 📝 使用coze开发的英文文献阅读Bot
-2. 🤝 "第二大脑"桌面助手程序
+2. 🤖 "第二大脑"桌面助手程序
 3. 📚 "吾知"学习助手程序
-4. pdf2md工具
+4. 📄 pdf2md工具
 
 ### 🎯 其他
-1.storyDiary
+1. 📖 storyDiary
 
 ## 🌍 美景与美食
 
@@ -114,8 +114,8 @@
 4. 💪 [bigym:一个开源的移动双臂操作基准测试平台](https://github.com/chernyadev/bigym)
 5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
 
-####  isaac仿真
-1.[New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
+#### 🖥️ isaac仿真
+1. 🤖 [New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
 
 #### 🔬 机器人前沿技术
 
@@ -136,9 +136,9 @@
 15. 🔨 [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
 16. 📹 [GVHMR：:从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
 17. 🌍 [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
-18. [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
-19. [CLoSD:通过结合文本驱动的扩散生成和强化学习（RL）来实现人物动作的生成和执行](https://github.com/GuyTevet/CLoSD?tab=readme-ov-file)
-20. [HOVER：人形机器人的多功能神经全身控制器](https://hover-versatile-humanoid.github.io/)
+18. 🤖 [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
+19. 🎭 [CLoSD:通过结合文本驱动的扩散生成和强化学习（RL）来实现人物动作的生成和执行](https://github.com/GuyTevet/CLoSD?tab=readme-ov-file)
+20. 🦾 [HOVER：人形机器人的多功能神经全身控制器](https://hover-versatile-humanoid.github.io/)
 ![image](https://github.com/user-attachments/assets/ca980d7b-72af-474f-b3b9-5be26016529c)
 
 
@@ -182,7 +182,7 @@
 
 #### 文档处理工具
 
-1.[完整保留版的PDF文档全文双语翻译，支持Google/DeepL/Ollama/OpenAI 翻译](https://github.com/Byaidu/PDFMathTranslate?tab=readme-ov-file)
+1. 📄 [完整保留版的PDF文档全文双语翻译，支持Google/DeepL/Ollama/OpenAI 翻译](https://github.com/Byaidu/PDFMathTranslate?tab=readme-ov-file)
 
 #### 🔍 搜索与研究
 
