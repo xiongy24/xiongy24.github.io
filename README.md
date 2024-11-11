@@ -72,6 +72,7 @@
    - 🛠️ [STL 文件和固件GUI ](https://github.com/TheRobotStudio/SO-ARM100)
    - [磁编码器虚拟舵机:探索使用更便宜的磁编码器来代替目前使用的伺服器作为引导臂](https://github.com/avenhaus/SO-ARM100-Encoders)
    - [mg2hfbot:将 MimicGen 数据集转换为 LeRobot 格式，以训练和评估 ACT、BC 和扩散策略](https://github.com/kywch/mg2hfbot)
+   - [ROS2 SO-ARM100:使用moveit进行运动规划](https://github.com/JafarAbdi/ros2_so_arm100)
 
 ##### 🧠 大模型与机械臂
 
