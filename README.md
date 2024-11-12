@@ -90,6 +90,7 @@
 6. 🧑‍🤝‍🧑 [human2humanoid：实现人类到人形机器人的实时全身远程操控](https://github.com/LeCAR-Lab/human2humanoid)
 7. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
 8. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
+9. [Legolas:仿cassie的迷你机器人](https://github.com/daviddoo02/Legolas-an-open-source-biped)
 
 #### 🐕 四足机器人
 
