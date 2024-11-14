@@ -113,8 +113,9 @@
 1. 🏋️ [LearningHumanoidWalking:使用强化学习训练人形机器人进行运动](https://github.com/rohanpsingh/LearningHumanoidWalking)
 2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
 3. 🤖 [RoboHive:机器人学习的统一框架](https://github.com/vikashplus/robohive)
-4. 💪 [bigym:一个开源的移动双臂操作基准测试平台](https://github.com/chernyadev/bigym)
-5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
+4. 💪 [LucidSim：从生成的图像中学习视觉跑酷](https://github.com/lucidsim/lucidsim)
+      ![image](https://github.com/user-attachments/assets/b85b4b34-1dcd-4a3a-8464-8bf0245897f1)
+6. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
 
 #### 🖥️ isaac仿真
 1. 🤖 [New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
