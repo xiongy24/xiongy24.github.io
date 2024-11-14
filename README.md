@@ -143,8 +143,7 @@
 20. 🦾 [HOVER：人形机器人的多功能神经全身控制器](https://hover-versatile-humanoid.github.io/)
 ![image](https://github.com/user-attachments/assets/ca980d7b-72af-474f-b3b9-5be26016529c)
 21.[BiGym:移动双手演示驱动机器人操作的新基准和学习环境](https://github.com/chernyadev/bigym)
-   ![Uploading image.png…]()
-
+    ![image](https://github.com/user-attachments/assets/07a421dc-f1b8-4663-ab37-6b0377414203)
 
 
 
