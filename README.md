@@ -1,11 +1,13 @@
- # 🤖 我的数字乌托邦
+# 🤖 我的数字乌托邦
 
-## 📰 最新文章
+## 📰 我的文章
 
-- 💻 [在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno](article1.md) - 2024年9月1日
+- 📝 [在 Ubuntu 环境下使用 VSCode 和 PlatformIO 下载程序到 Arduino Uno](article1.md) - 2024年9月1日
 - 🔧 [使用arduino控制42步进电机](article2.md) - 2024年9月10日
 - 🦾 [使用Isaac Sim 实现机械臂的Sim2Real](article3.md) - 2024年9月15日
 - 🤖 [人形机器人步态控制算法详解](article4.md) - 2024年10月15日
+- 📊 [双舵机位置反馈控制系统](article5.md) - 2024年11月10日
+- 💻 [使用ESP32通过I2C接口读取AS5600磁编码器数据](article6.md) - 2024年11月16日
 
 ## 👤 关于我
 
@@ -28,17 +30,21 @@
 ## 🚀 个人项目
 
 ### 🤖 机器人类
+
 1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
 2. 🦿 [使用强化学习实现轮足机器人的运动控制]
 3. 🐕 [开源spotmicro机器狗复现及改进]
+4. [lerobot机械臂项目复现]
 
 ### 🔧 工具类
+
 1. 📝 使用coze开发的英文文献阅读Bot
 2. 🤖 "第二大脑"桌面助手程序
 3. 📚 "吾知"学习助手程序
 4. 📄 pdf2md工具
 
 ### 🎯 其他
+
 1. 📖 storyDiary
 
 ## 🌍 美景与美食
@@ -91,7 +97,7 @@
 7. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
 8. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
 9. [Legolas:仿cassie的迷你机器人](https://github.com/daviddoo02/Legolas-an-open-source-biped)
-10.[Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
+   10.[Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
 
 #### 🐕 四足机器人
 
@@ -104,9 +110,9 @@
    - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
 
 #### 🦾 轮足机器人
+
 1. 🎮 [Wheel Legged Gym Environments](https://github.com/clearlab-sustech/Wheel-Legged-Gym/tree/master)
 2. 🔄 [Isaac-RL-Two-wheel-Legged-Bot](https://github.com/jaykorea/Isaac-RL-Two-wheel-Legged-Bot)
-
 
 #### 🏋️ mujoco仿真
 
@@ -114,10 +120,11 @@
 2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
 3. 🤖 [RoboHive:机器人学习的统一框架](https://github.com/vikashplus/robohive)
 4. 💪 [LucidSim：从生成的图像中学习视觉跑酷](https://github.com/lucidsim/lucidsim)
-      ![image](https://github.com/user-attachments/assets/b85b4b34-1dcd-4a3a-8464-8bf0245897f1)
-6. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
+   ![image](https://github.com/user-attachments/assets/b85b4b34-1dcd-4a3a-8464-8bf0245897f1)
+5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
 
 #### 🖥️ isaac仿真
+
 1. 🤖 [New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
 
 #### 🔬 机器人前沿技术
@@ -142,13 +149,10 @@
 18. 🤖 [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
 19. 🎭 [CLoSD:通过结合文本驱动的扩散生成和强化学习（RL）来实现人物动作的生成和执行](https://github.com/GuyTevet/CLoSD?tab=readme-ov-file)
 20. 🦾 [HOVER：人形机器人的多功能神经全身控制器](https://hover-versatile-humanoid.github.io/)
-![image](https://github.com/user-attachments/assets/ca980d7b-72af-474f-b3b9-5be26016529c)
-21.[BiGym:移动双手演示驱动机器人操作的新基准和学习环境](https://github.com/chernyadev/bigym)
-   [Aloha Bigym:ALOHA 演示驱动的移动双手操作基准测试](https://github.com/AlmondGod/aloha-bigym.git)
+    ![image](https://github.com/user-attachments/assets/ca980d7b-72af-474f-b3b9-5be26016529c)
+    21.[BiGym:移动双手演示驱动机器人操作的新基准和学习环境](https://github.com/chernyadev/bigym)
+    [Aloha Bigym:ALOHA 演示驱动的移动双手操作基准测试](https://github.com/AlmondGod/aloha-bigym.git)
     ![image](https://github.com/user-attachments/assets/07a421dc-f1b8-4663-ab37-6b0377414203)
-    
-
-
 
 ### 🧠 AI实用工具
 
@@ -157,6 +161,7 @@
 1. 📝 [ChatGPT：OpenAI开发的大型语言模型](https://chat.openai.com/)
 
 #### ✍️ AI辅助写作工具
+
 1. 📓 [notion](https://www.notion.so/)
 2. 🎯 [Napkin AI](https://www.napkin.ai/)
 
@@ -221,3 +226,5 @@
 
 © 2024 xiongy | 📡 [RSS订阅](#)
 
+
+[def]: article5.md
