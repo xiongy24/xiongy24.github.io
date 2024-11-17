@@ -197,6 +197,7 @@
 #### 文档处理工具
 
 1. 📄 [完整保留版的PDF文档全文双语翻译，支持Google/DeepL/Ollama/OpenAI 翻译](https://github.com/Byaidu/PDFMathTranslate?tab=readme-ov-file)
+2. [MinerU一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取](https://github.com/opendatalab/MinerU/tree/master)
 
 #### 🔍 搜索与研究
 
