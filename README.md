@@ -97,7 +97,10 @@
 7. 🦾 [模块化双足机器人项目](https://github.com/makerforgetech/modular-biped)
 8. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
 9. [Legolas:仿cassie的迷你机器人](https://github.com/daviddoo02/Legolas-an-open-source-biped)
-   10.[Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
+10.[Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
+11.[stable-humanoid:基于模型预测控制的人形机器人稳定行走基准测试工具](https://github.com/ouazzmoh/stable-humanoid)
+   ![image](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
+
 
 #### 🐕 四足机器人
 
