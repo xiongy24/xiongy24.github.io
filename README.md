@@ -113,6 +113,9 @@
    - 🛠️ [手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
    - 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
    - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
+2.[Unitree Go2:模拟平台用于测试导航、决策和自主任务。](https://github.com/Zhefan-Xu/isaac-go2-ros2)
+  ![image](https://github.com/user-attachments/assets/fedb5669-d6d7-4385-8e0e-68cc983ca054)
+
 
 #### 🦾 轮足机器人
 
