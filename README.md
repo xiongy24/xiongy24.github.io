@@ -166,6 +166,9 @@
     - [Aloha Bigym:ALOHA 演示驱动的移动双手操作基准测试](https://github.com/AlmondGod/aloha-bigym.git)
     ![image](https://github.com/user-attachments/assets/07a421dc-f1b8-4663-ab37-6b0377414203)
 22. [Open-TeleVision：具有沉浸式主动视觉反馈的远程操作](https://github.com/OpenTeleVision/TeleVision)
+23. [利用感知内部模型学习人形运动](https://junfeng-long.github.io/PIM/)
+   ![image](https://github.com/user-attachments/assets/f6dcfac7-27d2-4f3c-a6a4-a793641172b1)
+
 
 ### 🧠 AI实用工具
 
