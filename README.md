@@ -136,6 +136,8 @@
 1. 🤖 [New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
 2. [Garmentlab：服装仿真的统一模拟和基准]（https://github.com/GarmentLab/GarmentLab）
    ![image](https://github.com/user-attachments/assets/a6c4a29e-a3de-4f07-a678-66377e7951bb)
+3. [ur5_isaac_simulation](https://github.com/caiobarrosv/ur5_isaac_simulation?tab=readme-ov-file)
+    ![image](https://github.com/user-attachments/assets/21f5018d-4bf9-46e2-8baa-008e39e9cee4)
 
 
 #### 🔬 机器人前沿技术
