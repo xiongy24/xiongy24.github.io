@@ -138,6 +138,8 @@
    ![image](https://github.com/user-attachments/assets/a6c4a29e-a3de-4f07-a678-66377e7951bb)
 3. [ur5_isaac_simulation](https://github.com/caiobarrosv/ur5_isaac_simulation?tab=readme-ov-file)
     ![image](https://github.com/user-attachments/assets/21f5018d-4bf9-46e2-8baa-008e39e9cee4)
+4.[使用NVIDIA Isaac Sim同时模拟和控制两个UR臂](https://github.com/MetaToolEU/MT_Isaac_sim)
+  ![image](https://github.com/user-attachments/assets/46ef016b-c8cb-454f-a264-b6d6d9967312)
 
 
 #### 🔬 机器人前沿技术
