@@ -140,6 +140,8 @@
     ![image](https://github.com/user-attachments/assets/21f5018d-4bf9-46e2-8baa-008e39e9cee4)
 4.[使用NVIDIA Isaac Sim同时模拟和控制两个UR臂](https://github.com/MetaToolEU/MT_Isaac_sim)
   ![image](https://github.com/user-attachments/assets/46ef016b-c8cb-454f-a264-b6d6d9967312)
+5.[将 Flexiv 机器人添加到 Isaac Sim](https://github.com/flexivrobotics/isaac_sim_ws.git)
+  ![image](https://github.com/user-attachments/assets/a3f341cc-3c1d-4a28-a68b-2c4773e4a3b6)
 
 
 #### 🔬 机器人前沿技术
