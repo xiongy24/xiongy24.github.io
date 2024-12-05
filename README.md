@@ -115,6 +115,9 @@
    - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
 2.[Unitree Go2:模拟平台用于测试导航、决策和自主任务。](https://github.com/Zhefan-Xu/isaac-go2-ros2)
   ![image](https://github.com/user-attachments/assets/fedb5669-d6d7-4385-8e0e-68cc983ca054)
+3.[通过分布式优化加速腿式机器人的模型预测控制](https://sites.google.com/view/dwmpc/home)
+  ![image](https://github.com/user-attachments/assets/6a2b640a-e333-4b6b-a40c-4f58ba37a510)
+
 
 
 #### 🦾 轮足机器人
