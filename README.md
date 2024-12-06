@@ -60,7 +60,7 @@
 
 ### 📸 旅行摄影作品
 
-  适年形单影只，只好寄情山水
+  适年形单影只，恰有山水无名
 
 - [城市探索](link-to-city-gallery)
 - [自然风光](link-to-nature-gallery)
@@ -145,6 +145,9 @@
   ![image](https://github.com/user-attachments/assets/46ef016b-c8cb-454f-a264-b6d6d9967312)
 5.[将 Flexiv 机器人添加到 Isaac Sim](https://github.com/flexivrobotics/isaac_sim_ws.git)
   ![image](https://github.com/user-attachments/assets/a3f341cc-3c1d-4a28-a68b-2c4773e4a3b6)
+6.[OmniGibson:基于isaacSim的模拟平台](https://behavior.stanford.edu/omnigibson/index.html)
+  ![image](https://github.com/user-attachments/assets/625c5d84-81f2-4703-a132-84695711643f)
+
 
 
 #### 🔬 机器人前沿技术
@@ -177,7 +180,7 @@
 22. [Open-TeleVision：具有沉浸式主动视觉反馈的远程操作](https://github.com/OpenTeleVision/TeleVision)
 23. [利用感知内部模型学习人形运动](https://junfeng-long.github.io/PIM/)
    ![image](https://github.com/user-attachments/assets/f6dcfac7-27d2-4f3c-a6a4-a793641172b1)
-
+24.[Simulately:一个收集物理模拟器有用信息的网站](https://github.com/geng-haoran/Simulately?tab=readme-ov-file)
 
 ### 🧠 AI实用工具
 
