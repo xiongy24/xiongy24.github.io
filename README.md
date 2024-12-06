@@ -113,9 +113,9 @@
    - 🛠️ [手把手教你造一条自己的机器狗 SpotMicro制作教程](https://www.bilibili.com/video/BV1Na411A73R/?spm_id_from=333.337.search-card.all.click&vd_source=b0c8a11b5de94ddafb7aba6365bcceef)
    - 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
    - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
-2. [Unitree Go2:模拟平台用于测试导航、决策和自主任务。](https://github.com/Zhefan-Xu/isaac-go2-ros2)
+2. 🦾 [Unitree Go2:模拟平台用于测试导航、决策和自主任务。](https://github.com/Zhefan-Xu/isaac-go2-ros2)
   ![image](https://github.com/user-attachments/assets/fedb5669-d6d7-4385-8e0e-68cc983ca054)
-3. [通过分布式优化加速腿式机器人的模型预测控制](https://sites.google.com/view/dwmpc/home)
+3. 🦿 [通过分布式优化加速腿式机器人的模型预测控制](https://sites.google.com/view/dwmpc/home)
   ![image](https://github.com/user-attachments/assets/6a2b640a-e333-4b6b-a40c-4f58ba37a510)
 
 
@@ -143,9 +143,9 @@
     ![image](https://github.com/user-attachments/assets/21f5018d-4bf9-46e2-8baa-008e39e9cee4)
 4.[使用NVIDIA Isaac Sim同时模拟和控制两个UR臂](https://github.com/MetaToolEU/MT_Isaac_sim)
   ![image](https://github.com/user-attachments/assets/46ef016b-c8cb-454f-a264-b6d6d9967312)
-5.[将 Flexiv 机器人添加到 Isaac Sim](https://github.com/flexivrobotics/isaac_sim_ws.git)
+5. 🦾 [将 Flexiv 机器人添加到 Isaac Sim](https://github.com/flexivrobotics/isaac_sim_ws.git)
   ![image](https://github.com/user-attachments/assets/a3f341cc-3c1d-4a28-a68b-2c4773e4a3b6)
-6.[OmniGibson:基于isaacSim的模拟平台](https://behavior.stanford.edu/omnigibson/index.html)
+6. 🖥️ [OmniGibson:基于isaacSim的模拟平台](https://behavior.stanford.edu/omnigibson/index.html)
   ![image](https://github.com/user-attachments/assets/625c5d84-81f2-4703-a132-84695711643f)
 
 
@@ -167,7 +167,7 @@
 13. 🛠️ [ROSA:ROS1 和 ROS2 系统的 AI 助手](https://github.com/nasa-jpl/rosa)
 14. 🎮 [RAI:一个用于机器人的多供应商代理框架](https://github.com/RobotecAI/rai?tab=readme-ov-file#simulation-demos)
 15. 🔨 [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
-16. 📹 [GVHMR：:从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
+16. 📹 [GVHMR：从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
        ![image](https://github.com/user-attachments/assets/a5ea3432-e15a-4876-b91e-b32187c891ac)
 18. 🌍 [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
 19. 🤖 [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
@@ -175,12 +175,12 @@
 21. 🦾 [HOVER：人形机器人的多功能神经全身控制器](https://hover-versatile-humanoid.github.io/)
     ![image](https://github.com/user-attachments/assets/ca980d7b-72af-474f-b3b9-5be26016529c)
 21.[BiGym:移动双手演示驱动机器人操作的新基准和学习环境](https://github.com/chernyadev/bigym)
-    - [Aloha Bigym:ALOHA 演示驱动的移动双手操作基准测试](https://github.com/AlmondGod/aloha-bigym.git)
+    - 🤖 [Aloha Bigym:ALOHA 演示驱动的移动双手操作基准测试](https://github.com/AlmondGod/aloha-bigym.git)
     ![image](https://github.com/user-attachments/assets/07a421dc-f1b8-4663-ab37-6b0377414203)
-22. [Open-TeleVision：具有沉浸式主动视觉反馈的远程操作](https://github.com/OpenTeleVision/TeleVision)
-23. [利用感知内部模型学习人形运动](https://junfeng-long.github.io/PIM/)
+22. 🔬 [Open-TeleVision：具有沉浸式主动视觉反馈的远程操作](https://github.com/OpenTeleVision/TeleVision)
+23. 🧠 [利用感知内部模型学习人形运动](https://junfeng-long.github.io/PIM/)
    ![image](https://github.com/user-attachments/assets/f6dcfac7-27d2-4f3c-a6a4-a793641172b1)
-24.[Simulately:一个收集物理模拟器有用信息的网站](https://github.com/geng-haoran/Simulately?tab=readme-ov-file)
+24. 🔍 [Simulately:一个收集物理模拟器有用信息的网站](https://github.com/geng-haoran/Simulately?tab=readme-ov-file)
 
 ### 🧠 AI实用工具
 
