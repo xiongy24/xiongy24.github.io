@@ -60,7 +60,7 @@
 
 ### 📸 旅行摄影作品
 
-  适年形单影只，恰有山水无名
+  适年形单影只，恰识山水无名
 
 - [城市探索](link-to-city-gallery)
 - [自然风光](link-to-nature-gallery)
