@@ -182,6 +182,9 @@
 23. 🧠 [利用感知内部模型学习人形运动](https://junfeng-long.github.io/PIM/)
    ![image](https://github.com/user-attachments/assets/f6dcfac7-27d2-4f3c-a6a4-a793641172b1)
 24. 🔍 [Simulately:一个收集物理模拟器有用信息的网站](https://github.com/geng-haoran/Simulately?tab=readme-ov-file)
+25. [一个策略解决所有问题：多实体运动的端到端学习方法](https://github.com/nico-bohlinger/one_policy_to_run_them_all.git)
+    ![image](https://github.com/user-attachments/assets/b35aeb80-e0f2-48d6-b5ad-3878d0e4efcb)
+
 
 ### 🧠 AI实用工具
 
