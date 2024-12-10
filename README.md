@@ -184,6 +184,9 @@
 24. 🔍 [Simulately:一个收集物理模拟器有用信息的网站](https://github.com/geng-haoran/Simulately?tab=readme-ov-file)
 25. [一个策略解决所有问题：多实体运动的端到端学习方法](https://github.com/nico-bohlinger/one_policy_to_run_them_all.git)
     ![image](https://github.com/user-attachments/assets/b35aeb80-e0f2-48d6-b5ad-3878d0e4efcb)
+26.[RL Zero：无需任何监督的零样本语言到行为](https://hari-sikchi.github.io/rlzero/)
+    ![image](https://github.com/user-attachments/assets/928c8021-1836-47d0-8e2c-60369a80c2f8)
+
 
 
 ### 🧠 AI实用工具
