@@ -82,6 +82,9 @@
    - [mg2hfbot:将 MimicGen 数据集转换为 LeRobot 格式，以训练和评估 ACT、BC 和扩散策略](https://github.com/kywch/mg2hfbot)
    - [ROS2 SO-ARM100:使用moveit进行运动规划](https://github.com/JafarAbdi/ros2_so_arm100)
    - [使用多个 ACT 模型来解决复杂的机器人任务](https://github.com/1g0rrr/simpleautomation)
+4.[集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基线](https://github.com/isri-aist/RoboManipBaselines)
+  ![image](https://github.com/user-attachments/assets/c4c6be4c-8653-4915-a070-da930e4653a1)
+
 
 ##### 🧠 大模型与机械臂
 
