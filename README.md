@@ -84,6 +84,8 @@
    - [使用多个 ACT 模型来解决复杂的机器人任务](https://github.com/1g0rrr/simpleautomation)
 4.[集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基线](https://github.com/isri-aist/RoboManipBaselines)
   ![image](https://github.com/user-attachments/assets/c4c6be4c-8653-4915-a070-da930e4653a1)
+5.[现代机器人课程](https://github.com/madibabaiasl/modern-robotics-course)
+  ![image](https://github.com/user-attachments/assets/17d4e51b-c951-4150-b313-bbd9edf5712e)
 
 
 ##### 🧠 大模型与机械臂
