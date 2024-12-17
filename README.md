@@ -34,7 +34,7 @@
 1. 🤖 [通过Isaac Sim 实现机械臂的Sim2Real](https://github.com/xiongy24/arm_isaac_sim2real.git)
 2. 🦿 [使用强化学习实现轮足机器人的运动控制]
 3. 🐕 [开源spotmicro机器狗复现及改进]
-4. [lerobot机械臂项目复现]
+4. [lerobot机械臂项目]
 
 ### 🔧 工具类
 
@@ -108,6 +108,8 @@
 10. [Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
 11. [stable-humanoid:基于模型预测控制的人形机器人稳定行走基准测试工具](https://github.com/ouazzmoh/stable-humanoid)
    ![image](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
+12.[Unitree Robots进行强化学习的全套方案](https://github.com/unitreerobotics/unitree_rl_gym)
+    ![image](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
 
 
 #### 🐕 四足机器人
