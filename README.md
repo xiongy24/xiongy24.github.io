@@ -112,11 +112,11 @@
 10. [Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
 11. [stable-humanoid:基于模型预测控制的人形机器人稳定行走基准测试工具](https://github.com/ouazzmoh/stable-humanoid)
 
-![Stable Humanoid](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
+  ![Stable Humanoid](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
 
 12.[Unitree Robots进行强化学习的全套方案](https://github.com/unitreerobotics/unitree_rl_gym)
 
-![Unitree RL](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
+  ![Unitree RL](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
 
 
 #### 🐕 四足机器人
@@ -129,9 +129,9 @@
    - 🆕 [NovaSM3版](https://novaspotmicro.com/parts-list.html)
    - 🤖 [SpotMicroESP32(包含全套方案)](https://www.instructables.com/Quadruped-Robot-Alpha-ESP32-Based-Spot-Micro-Robot/)
 2. 🦾 [Unitree Go2:模拟平台用于测试导航、决策和自主任务。](https://github.com/Zhefan-Xu/isaac-go2-ros2)
-  ![image](https://github.com/user-attachments/assets/fedb5669-d6d7-4385-8e0e-68cc983ca054)
+    ![image](https://github.com/user-attachments/assets/fedb5669-d6d7-4385-8e0e-68cc983ca054)
 3. 🦿 [通过分布式优化加速腿式机器人的模型预测控制](https://sites.google.com/view/dwmpc/home)
-  ![image](https://github.com/user-attachments/assets/6a2b640a-e333-4b6b-a40c-4f58ba37a510)
+    ![image](https://github.com/user-attachments/assets/6a2b640a-e333-4b6b-a40c-4f58ba37a510)
 
 
 
@@ -146,7 +146,7 @@
 2. 🚶 [stable-humanoid:基于模型预测控制（MPC）的人形机器人稳定行走控制器](https://github.com/ouazzmoh/stable-humanoid)
 3. 🤖 [RoboHive:机器人学习的统一框架](https://github.com/vikashplus/robohive)
 4. 💪 [LucidSim：从生成的图像中学习视觉跑酷](https://github.com/lucidsim/lucidsim)
-   ![image](https://github.com/user-attachments/assets/b85b4b34-1dcd-4a3a-8464-8bf0245897f1)
+     ![image](https://github.com/user-attachments/assets/b85b4b34-1dcd-4a3a-8464-8bf0245897f1)
 5. 🦿 [HumanoidBench：用于全身运动和操控的模拟人形基准](https://github.com/carlosferrazza/humanoid-bench)
 
 #### 🖥️ isaac仿真
@@ -157,11 +157,11 @@
 3. [ur5_isaac_simulation](https://github.com/caiobarrosv/ur5_isaac_simulation?tab=readme-ov-file)
     ![image](https://github.com/user-attachments/assets/21f5018d-4bf9-46e2-8baa-008e39e9cee4)
 4.[使用NVIDIA Isaac Sim同时模拟和控制两个UR臂](https://github.com/MetaToolEU/MT_Isaac_sim)
-  ![image](https://github.com/user-attachments/assets/46ef016b-c8cb-454f-a264-b6d6d9967312)
+    ![image](https://github.com/user-attachments/assets/46ef016b-c8cb-454f-a264-b6d6d9967312)
 5. 🦾 [将 Flexiv 机器人添加到 Isaac Sim](https://github.com/flexivrobotics/isaac_sim_ws.git)
-  ![image](https://github.com/user-attachments/assets/a3f341cc-3c1d-4a28-a68b-2c4773e4a3b6)
+    ![image](https://github.com/user-attachments/assets/a3f341cc-3c1d-4a28-a68b-2c4773e4a3b6)
 6. 🖥️ [OmniGibson:基于isaacSim的模拟平台](https://behavior.stanford.edu/omnigibson/index.html)
-  ![image](https://github.com/user-attachments/assets/625c5d84-81f2-4703-a132-84695711643f)
+    ![image](https://github.com/user-attachments/assets/625c5d84-81f2-4703-a132-84695711643f)
 
 
 
