@@ -60,7 +60,7 @@
 
 ### 📸 旅行摄影作品
 
-  适年形单影只，恰识山水无名
+  适年形影相吊，恰识山水无名
 
 - [城市探索](link-to-city-gallery)
 - [自然风光](link-to-nature-gallery)
@@ -83,9 +83,12 @@
    - [ROS2 SO-ARM100:使用moveit进行运动规划](https://github.com/JafarAbdi/ros2_so_arm100)
    - [使用多个 ACT 模型来解决复杂的机器人任务](https://github.com/1g0rrr/simpleautomation)
 4.[集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基线](https://github.com/isri-aist/RoboManipBaselines)
-  ![image](https://github.com/user-attachments/assets/c4c6be4c-8653-4915-a070-da930e4653a1)
+
+![RoboManipBaselines](https://github.com/user-attachments/assets/c4c6be4c-8653-4915-a070-da930e4653a1)
+
 5.[现代机器人课程](https://github.com/madibabaiasl/modern-robotics-course)
-  ![image](https://github.com/user-attachments/assets/17d4e51b-c951-4150-b313-bbd9edf5712e)
+
+![Modern Robotics Course](https://github.com/user-attachments/assets/17d4e51b-c951-4150-b313-bbd9edf5712e)
 
 
 ##### 🧠 大模型与机械臂
@@ -107,9 +110,12 @@
 9. [Legolas:仿cassie的迷你机器人](https://github.com/daviddoo02/Legolas-an-open-source-biped)
 10. [Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
 11. [stable-humanoid:基于模型预测控制的人形机器人稳定行走基准测试工具](https://github.com/ouazzmoh/stable-humanoid)
-   ![image](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
+
+![Stable Humanoid](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
+
 12.[Unitree Robots进行强化学习的全套方案](https://github.com/unitreerobotics/unitree_rl_gym)
-    ![image](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
+
+![Unitree RL](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
 
 
 #### 🐕 四足机器人
@@ -177,7 +183,7 @@
 15. 🔨 [robosuite：机器人学习的模块化模拟框架和基准](https://github.com/ARISE-Initiative/robosuite)
 16. 📹 [GVHMR：从普通视频中还原出人物真实3D动作](https://github.com/zju3dv/GVHMR)
        ![image](https://github.com/user-attachments/assets/a5ea3432-e15a-4876-b91e-b32187c891ac)
-18. 🌍 [Eurekaverse：通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
+18. 🌍 [Eurekaverse通过大型语言模型生成环境课程](https://github.com/eureka-research/eurekaverse)
 19. 🤖 [Body Transformer：利用机器人化身进行策略学习](https://github.com/carlosferrazza/BodyTransformer)
 20. 🎭 [CLoSD:通过结合文本驱动的扩散生成和强化学习（RL）来实现人物动作的生成和执行](https://github.com/GuyTevet/CLoSD?tab=readme-ov-file)
 21. 🦾 [HOVER：人形机器人的多功能神经全身控制器](https://hover-versatile-humanoid.github.io/)
@@ -189,9 +195,9 @@
 23. 🧠 [利用感知内部模型学习人形运动](https://junfeng-long.github.io/PIM/)
    ![image](https://github.com/user-attachments/assets/f6dcfac7-27d2-4f3c-a6a4-a793641172b1)
 24. 🔍 [Simulately:一个收集物理模拟器有用信息的网站](https://github.com/geng-haoran/Simulately?tab=readme-ov-file)
-25. [一个策略解决所有问题：多实体运动的端到端学习方法](https://github.com/nico-bohlinger/one_policy_to_run_them_all.git)
+25. 🎮 [一个策略解决所有问题：多实体运动的端到端学习方法](https://github.com/nico-bohlinger/one_policy_to_run_them_all.git)
     ![image](https://github.com/user-attachments/assets/b35aeb80-e0f2-48d6-b5ad-3878d0e4efcb)
-26.[RL Zero：无需任何监督的零样本语言到行为](https://hari-sikchi.github.io/rlzero/)
+26. 🤖 [RL Zero：无需任何监督的零样本语言到行为](https://hari-sikchi.github.io/rlzero/)
     ![image](https://github.com/user-attachments/assets/928c8021-1836-47d0-8e2c-60369a80c2f8)
 
 
@@ -227,7 +233,7 @@
 
 #### 📹 程序开发
 
-1.[🙌 OpenHands：少写代码，多做事](https://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file)
+1. 🛠️ [OpenHands：少写代码，多做事](https://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file)
 
 #### 💻 RAG
 
@@ -235,12 +241,12 @@
 2. 💾 [Memento:可记录计算机上执行的所有操作，并允许回溯、搜索和与 LLM（大型语言模型）聊天以查找有关您所做操作的信息](https://github.com/apirrone/Memento)
 3. 📝 [Rocketnotes:由 LLM 提供支持的 Markdown 编辑器](https://github.com/fynnfluegge/rocketnotes)
 
-#### 文档处理工具
+#### 📄 文档处理工具
 
 1. 📄 [完整保留版的PDF文档全文双语翻译，支持Google/DeepL/Ollama/OpenAI 翻译](https://github.com/Byaidu/PDFMathTranslate?tab=readme-ov-file)
-2. [MinerU一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取](https://github.com/opendatalab/MinerU/tree/master)
-3. [pdf2htmlEX:将PDF转换为HTML而不会丢失文本或格式将PDF转换为HTML而不会丢失文本或格式](https://github.com/pdf2htmlEX/pdf2htmlEX)
-4. [MarkItDown 库是一个用于将各种文件转换为 Markdown 的实用工具](https://github.com/microsoft/markitdown)
+2. 📚 [MinerU一站式开源高质量数据提取工具，支持PDF/网页/多格式电子书提取](https://github.com/opendatalab/MinerU/tree/master)
+3. 📑 [pdf2htmlEX:将PDF转换为HTML而不会丢失文本或格式将PDF转换为HTML而不会丢失文本或格式](https://github.com/pdf2htmlEX/pdf2htmlEX)
+4. 📝 [MarkItDown 库是一个用于将各种文件转换为 Markdown 的实用工具](https://github.com/microsoft/markitdown)
 
 #### 🔍 搜索与研究
 
