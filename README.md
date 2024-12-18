@@ -110,7 +110,7 @@
 8. 🤖 [Tinker:国内开源的迪士尼 BDX 机器人](https://github.com/Yuexuan9/Tinker)
 9. [Legolas:仿cassie的迷你机器人](https://github.com/daviddoo02/Legolas-an-open-source-biped)
 10. [Zeroth 机器人:3D打印开源人形机器人平台，适用于模拟到现实和RL](https://github.com/zeroth-robotics/zeroth-bot)
-    -[让Zeroth机器人实时镜像人体姿势](https://github.com/theswerd/basedbot)
+    - 🖥️[让Zeroth机器人实时镜像人体姿势](https://github.com/theswerd/basedbot)
     
 12. [stable-humanoid:基于模型预测控制的人形机器人稳定行走基准测试工具](https://github.com/ouazzmoh/stable-humanoid)
 
