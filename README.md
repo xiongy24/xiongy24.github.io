@@ -202,7 +202,8 @@
     ![image](https://github.com/user-attachments/assets/b35aeb80-e0f2-48d6-b5ad-3878d0e4efcb)
 26. 🤖 [RL Zero：无需任何监督的零样本语言到行为](https://hari-sikchi.github.io/rlzero/)
     ![image](https://github.com/user-attachments/assets/928c8021-1836-47d0-8e2c-60369a80c2f8)
-
+27.[Genesis：用于机器人及其他领域的生成式通用物理引擎](https://genesis-embodied-ai.github.io/)
+    ![image](https://github.com/user-attachments/assets/97c84e8d-a9ab-4a82-9e98-26bd1ce61467)
 
 
 ### 🧠 AI实用工具
