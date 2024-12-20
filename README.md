@@ -134,7 +134,7 @@
     ![image](https://github.com/user-attachments/assets/fedb5669-d6d7-4385-8e0e-68cc983ca054)
 3. 🦿 [通过分布式优化加速腿式机器人的模型预测控制](https://sites.google.com/view/dwmpc/home)
     ![image](https://github.com/user-attachments/assets/6a2b640a-e333-4b6b-a40c-4f58ba37a510)
-
+4.[适用于开源四足机器人（SpotMicro）的OpenAI Gym环境](https://github.com/nicrusso7/rex-gym?tab=readme-ov-file)
 
 
 #### 🦾 轮足机器人
