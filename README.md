@@ -119,6 +119,9 @@
 12.[Unitree Robots进行强化学习的全套方案](https://github.com/unitreerobotics/unitree_rl_gym)
 
   ![Unitree RL](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
+13.[伯克利人形机器人:基于学习的控制研究平台](https://berkeley-humanoid.com/)
+  ![image](https://github.com/user-attachments/assets/9ba23240-2730-4d69-bca3-d9fa903dccb1)
+
 
 
 #### 🐕 四足机器人
