@@ -205,6 +205,8 @@
     ![image](https://github.com/user-attachments/assets/928c8021-1836-47d0-8e2c-60369a80c2f8)
 27.[Genesis：用于机器人及其他领域的生成式通用物理引擎](https://genesis-embodied-ai.github.io/)
     ![image](https://github.com/user-attachments/assets/97c84e8d-a9ab-4a82-9e98-26bd1ce61467)
+28.[通过大量人体视频进行学习，实现通用人形姿势控制](https://usc-gvl.github.io/UH-1/)
+    ![image](https://github.com/user-attachments/assets/98b998ce-bf68-4ae3-9b4f-006b436a1a98)
 
 
 ### 🧠 AI实用工具
