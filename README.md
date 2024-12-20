@@ -164,7 +164,8 @@
     ![image](https://github.com/user-attachments/assets/a3f341cc-3c1d-4a28-a68b-2c4773e4a3b6)
 6. 🖥️ [OmniGibson:基于isaacSim的模拟平台](https://behavior.stanford.edu/omnigibson/index.html)
     ![image](https://github.com/user-attachments/assets/625c5d84-81f2-4703-a132-84695711643f)
-
+7.[Isaac Sim的Foxglove 扩展](https://github.com/foxglove/foxglove-isaac-sim)
+    ![image](https://github.com/user-attachments/assets/fc196373-e19a-4b7c-ab3e-d88949395131)
 
 
 #### 🔬 机器人前沿技术
