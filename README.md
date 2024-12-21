@@ -229,6 +229,7 @@
 
 1. 📓 [notion](https://www.notion.so/)
 2. 🎯 [Napkin AI](https://www.napkin.ai/)
+3.[AFFINE](https://affine.pro/)
 
 #### 🎨 文档识���
 
