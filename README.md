@@ -85,11 +85,11 @@
 
 4.[集成各种模仿学习方法和基准任务环境的软件，为机器人操作提供基线](https://github.com/isri-aist/RoboManipBaselines)
 
-  ![RoboManipBaselines](https://github.com/user-attachments/assets/c4c6be4c-8653-4915-a070-da930e4653a1)
+![RoboManipBaselines](https://github.com/user-attachments/assets/c4c6be4c-8653-4915-a070-da930e4653a1)
 
 5.[现代机器人课程](https://github.com/madibabaiasl/modern-robotics-course)
 
-  ![Modern Robotics Course](https://github.com/user-attachments/assets/17d4e51b-c951-4150-b313-bbd9edf5712e)
+![Modern Robotics Course](https://github.com/user-attachments/assets/17d4e51b-c951-4150-b313-bbd9edf5712e)
 
 
 ##### 🧠 大模型与机械臂
@@ -114,11 +114,11 @@
     
 12. [stable-humanoid:基于模型预测控制的人形机器人稳定行走基准测试工具](https://github.com/ouazzmoh/stable-humanoid)
 
-  ![Stable Humanoid](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
+![Stable Humanoid](https://github.com/user-attachments/assets/c2d8c808-acf4-4da1-8875-8d736637c4c6)
 
 12.[Unitree Robots进行强化学习的全套方案](https://github.com/unitreerobotics/unitree_rl_gym)
 
-  ![Unitree RL](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
+![Unitree RL](https://github.com/user-attachments/assets/16b6883a-4320-4287-a215-f9241ef10c3e)
 13.[伯克利人形机器人:基于学习的控制研究平台](https://berkeley-humanoid.com/)
   ![image](https://github.com/user-attachments/assets/9ba23240-2730-4d69-bca3-d9fa903dccb1)
 
@@ -157,10 +157,15 @@
 #### 🖥️ isaac仿真
 
 1. 🤖 [New BCR Robot:带有差速驱动、深度摄像头、IMU和2D LiDAR的Gazebo-ROS AMR机器人](https://github.com/blackcoffeerobotics/bcr_bot)
+
 2. [Garmentlab：服装仿真的统一模拟和基准](https://github.com/GarmentLab/GarmentLab)
-   ![image](https://github.com/user-attachments/assets/a6c4a29e-a3de-4f07-a678-66377e7951bb)
+
+![image](https://github.com/user-attachments/assets/a6c4a29e-a3de-4f07-a678-66377e7951bb)
+
 3. [ur5_isaac_simulation](https://github.com/caiobarrosv/ur5_isaac_simulation?tab=readme-ov-file)
-    ![image](https://github.com/user-attachments/assets/21f5018d-4bf9-46e2-8baa-008e39e9cee4)
+
+![image](https://github.com/user-attachments/assets/21f5018d-4bf9-46e2-8baa-008e39e9cee4)
+
 4.[使用NVIDIA Isaac Sim同时模拟和控制两个UR臂](https://github.com/MetaToolEU/MT_Isaac_sim)
     ![image](https://github.com/user-attachments/assets/46ef016b-c8cb-454f-a264-b6d6d9967312)
 5. 🦾 [将 Flexiv 机器人添加到 Isaac Sim](https://github.com/flexivrobotics/isaac_sim_ws.git)
@@ -177,7 +182,7 @@
 2. 🔧 [Rofunc：机器人演示和操作的全流程 Python 包](https://github.com/Skylark0924/Rofunc)
 3. 🎯 [skrl：模块化强化学习库](https://github.com/Toni-SM/skrl)
 4. 🎭 [MaskedMimic：基于物理的统一角色控制方法](https://research.nvidia.com/labs/par/maskedmimic/)
-5. 🌐 [SplatSim：使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 迁移](https://splatsim.github.io/)
+5. 🌐 [SplatSim：使用高斯分层进行 RGB 操作策略的零样本 Sim2Real 移](https://splatsim.github.io/)
 6. 🤖 [PhysHOI：基于物理的动态人机交互模拟](https://github.com/wyhuai/PhysHOI)
 7. 🦿 [PHC：一种基于物理的人形控制器](https://github.com/ZhengyiLuo/PHC)
 8. 👁️ [RoboPoint：用于机器人空间可供性预测的视觉语言模型](https://robo-point.github.io/)
@@ -225,9 +230,9 @@
 1. 📓 [notion](https://www.notion.so/)
 2. 🎯 [Napkin AI](https://www.napkin.ai/)
 
-#### 🎨 文档识别
+#### 🎨 文档识���
 
-1. 🎨 [将任何图像或 PDF 转换为超高精度的 Markdown 文本或 JSON 结构化文档](https://github.com/CatchTheTornado/pdf-extract-api)
+1. 🎨 [将任何图或 PDF 转换为超高精度的 Markdown 文本或 JSON 结构化文档](https://github.com/CatchTheTornado/pdf-extract-api)
 2. 🖼️ [DALL-E：OpenAI的文本到图像生成模型](https://openai.com/dall-e-2)
 
 #### 🔊 AI翻译
