@@ -210,6 +210,8 @@
     ![image](https://github.com/user-attachments/assets/97c84e8d-a9ab-4a82-9e98-26bd1ce61467)
 28.[通过大量人体视频进行学习，实现通用人形姿势控制](https://usc-gvl.github.io/UH-1/)
     ![image](https://github.com/user-attachments/assets/98b998ce-bf68-4ae3-9b4f-006b436a1a98)
+29.[通过人类层面的指令实现人与物体的交互](https://hoifhli.github.io/)
+    ![image](https://github.com/user-attachments/assets/2f8ea23a-629d-43a5-b400-64251d3e5e7d)
 
 
 ### 🧠 AI实用工具
